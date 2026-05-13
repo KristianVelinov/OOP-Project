@@ -1,8 +1,8 @@
 CMakeFiles/ecims.dir/src/Capacitor.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\Capacitor.cpp \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Capacitor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/PassiveComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Component.h \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\Capacitor.cpp \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Capacitor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/PassiveComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Component.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \

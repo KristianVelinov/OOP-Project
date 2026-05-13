@@ -1,9 +1,9 @@
 CMakeFiles/ecims.dir/src/BJTTransistor.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\BJTTransistor.cpp \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BJTTransistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Transistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ActiveComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Component.h \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\BJTTransistor.cpp \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BJTTransistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Transistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ActiveComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Component.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \

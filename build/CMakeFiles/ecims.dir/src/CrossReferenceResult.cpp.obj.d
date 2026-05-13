@@ -1,7 +1,7 @@
 CMakeFiles/ecims.dir/src/CrossReferenceResult.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\CrossReferenceResult.cpp \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/CrossReferenceResult.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOMEntry.h \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\CrossReferenceResult.cpp \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/CrossReferenceResult.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOMEntry.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -105,7 +105,7 @@ CMakeFiles/ecims.dir/src/CrossReferenceResult.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_vector.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/vector.tcc \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Component.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Component.h \
  C:/msys64/mingw64/include/c++/15.2.0/map \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_tree.h \
  C:/msys64/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \

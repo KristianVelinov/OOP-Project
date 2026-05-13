@@ -1,7 +1,7 @@
 CMakeFiles/ecims.dir/src/TransactionLog.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\TransactionLog.cpp \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/TransactionLog.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Transaction.h \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\TransactionLog.cpp \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/TransactionLog.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Transaction.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \

@@ -1,5 +1,5 @@
 CMakeFiles/ecims.dir/src/main.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\main.cpp \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\main.cpp \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \
@@ -256,9 +256,13 @@ CMakeFiles/ecims.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/commdlg.h C:/msys64/mingw64/include/stralign.h \
  C:/msys64/mingw64/include/sec_api/stralign_s.h \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
- C:/msys64/mingw64/include/imm.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Inventory.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Component.h \
+ C:/msys64/mingw64/include/imm.h C:/msys64/mingw64/include/conio.h \
+ C:/msys64/mingw64/include/corecrt_stdio_config.h \
+ C:/msys64/mingw64/include/corecrt_wconio.h \
+ C:/msys64/mingw64/include/sec_api/wconio_s.h \
+ C:/msys64/mingw64/include/sec_api/conio_s.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Inventory.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Component.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stringfwd.h \
@@ -267,9 +271,6 @@ CMakeFiles/ecims.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/postypes.h \
  C:/msys64/mingw64/include/c++/15.2.0/cwchar \
  C:/msys64/mingw64/include/wchar.h \
- C:/msys64/mingw64/include/corecrt_stdio_config.h \
- C:/msys64/mingw64/include/corecrt_wconio.h \
- C:/msys64/mingw64/include/sec_api/wconio_s.h \
  C:/msys64/mingw64/include/_mingw_off_t.h \
  C:/msys64/mingw64/include/_mingw_stat64.h \
  C:/msys64/mingw64/include/swprintf.inl \
@@ -397,8 +398,8 @@ CMakeFiles/ecims.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/quoted_string.h \
  C:/msys64/mingw64/include/c++/15.2.0/sstream \
  C:/msys64/mingw64/include/c++/15.2.0/bits/sstream.tcc \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Taxonomy.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/TaxonomyNode.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Taxonomy.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/TaxonomyNode.h \
  C:/msys64/mingw64/include/c++/15.2.0/vector \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_vector.h \
@@ -425,22 +426,22 @@ CMakeFiles/ecims.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/atomic_lockfree_defines.h \
  C:/msys64/mingw64/include/c++/15.2.0/backward/auto_ptr.h \
  C:/msys64/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Resistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/PassiveComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Capacitor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Inductor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/MOSFETTransistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Transistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ActiveComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BJTTransistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/DiodeComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/IntegratedCircuit.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ConnectorComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ArbitraryComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOM.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOMEntry.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOMImporter.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/FootprintParser.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Resistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/PassiveComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Capacitor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Inductor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/MOSFETTransistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Transistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ActiveComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BJTTransistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/DiodeComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/IntegratedCircuit.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ConnectorComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ArbitraryComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOM.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOMEntry.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOMImporter.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/FootprintParser.h \
  C:/msys64/mingw64/include/c++/15.2.0/regex \
  C:/msys64/mingw64/include/c++/15.2.0/bitset \
  C:/msys64/mingw64/include/c++/15.2.0/stack \
@@ -461,10 +462,10 @@ CMakeFiles/ecims.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/regex.tcc \
  C:/msys64/mingw64/include/c++/15.2.0/bits/regex_executor.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/regex_executor.tcc \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOMCrossReferencer.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/CrossReferenceResult.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/SmartMatcher.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/SearchCriteria.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOMCrossReferencer.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/CrossReferenceResult.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/SmartMatcher.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/SearchCriteria.h \
  C:/msys64/mingw64/include/c++/15.2.0/utility \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_relops.h \
  C:/msys64/mingw64/include/c++/15.2.0/functional \
@@ -475,12 +476,12 @@ CMakeFiles/ecims.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/enable_special_members.h \
  C:/msys64/mingw64/include/c++/15.2.0/array \
  C:/msys64/mingw64/include/c++/15.2.0/compare \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ParametricSearch.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ProjectManager.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Project.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/TransactionLog.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Transaction.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/LowStockAlert.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/DatasheetManager.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Persistence.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ParametricSearch.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ProjectManager.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Project.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/TransactionLog.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Transaction.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/LowStockAlert.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/DatasheetManager.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Persistence.h \
  C:/msys64/mingw64/include/c++/15.2.0/limits

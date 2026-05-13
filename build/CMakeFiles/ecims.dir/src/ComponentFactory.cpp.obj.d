@@ -1,9 +1,9 @@
 CMakeFiles/ecims.dir/src/ComponentFactory.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\ComponentFactory.cpp \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ComponentFactory.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Resistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/PassiveComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Component.h \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\ComponentFactory.cpp \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ComponentFactory.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Resistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/PassiveComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Component.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -167,16 +167,16 @@ CMakeFiles/ecims.dir/src/ComponentFactory.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/quoted_string.h \
  C:/msys64/mingw64/include/c++/15.2.0/sstream \
  C:/msys64/mingw64/include/c++/15.2.0/bits/sstream.tcc \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Capacitor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Inductor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/MOSFETTransistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Transistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ActiveComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BJTTransistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/DiodeComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/IntegratedCircuit.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ConnectorComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ArbitraryComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Capacitor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Inductor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/MOSFETTransistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Transistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ActiveComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BJTTransistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/DiodeComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/IntegratedCircuit.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ConnectorComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ArbitraryComponent.h \
  C:/msys64/mingw64/include/c++/15.2.0/vector \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_vector.h \

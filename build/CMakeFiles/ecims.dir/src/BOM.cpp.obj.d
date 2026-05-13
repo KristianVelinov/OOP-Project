@@ -1,7 +1,7 @@
 CMakeFiles/ecims.dir/src/BOM.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\BOM.cpp \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOM.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOMEntry.h \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\BOM.cpp \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOM.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOMEntry.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \

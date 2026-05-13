@@ -1,8 +1,8 @@
 CMakeFiles/ecims.dir/src/LowStockAlert.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\LowStockAlert.cpp \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/LowStockAlert.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Inventory.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Component.h \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\LowStockAlert.cpp \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/LowStockAlert.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Inventory.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Component.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -166,8 +166,8 @@ CMakeFiles/ecims.dir/src/LowStockAlert.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/quoted_string.h \
  C:/msys64/mingw64/include/c++/15.2.0/sstream \
  C:/msys64/mingw64/include/c++/15.2.0/bits/sstream.tcc \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Taxonomy.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/TaxonomyNode.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Taxonomy.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/TaxonomyNode.h \
  C:/msys64/mingw64/include/c++/15.2.0/vector \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_vector.h \

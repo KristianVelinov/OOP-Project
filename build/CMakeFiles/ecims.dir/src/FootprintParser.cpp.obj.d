@@ -1,6 +1,6 @@
 CMakeFiles/ecims.dir/src/FootprintParser.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\FootprintParser.cpp \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/FootprintParser.h \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\FootprintParser.cpp \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/FootprintParser.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \

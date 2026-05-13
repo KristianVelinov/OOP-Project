@@ -1,8 +1,8 @@
 CMakeFiles/ecims.dir/src/ParametricSearch.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\ParametricSearch.cpp \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ParametricSearch.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/SearchCriteria.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Component.h \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\ParametricSearch.cpp \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ParametricSearch.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/SearchCriteria.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Component.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -182,9 +182,9 @@ CMakeFiles/ecims.dir/src/ParametricSearch.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/vector.tcc \
  C:/msys64/mingw64/include/c++/15.2.0/array \
  C:/msys64/mingw64/include/c++/15.2.0/compare \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Inventory.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Taxonomy.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/TaxonomyNode.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Inventory.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Taxonomy.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/TaxonomyNode.h \
  C:/msys64/mingw64/include/c++/15.2.0/algorithm \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_algo.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/algorithmfwd.h \

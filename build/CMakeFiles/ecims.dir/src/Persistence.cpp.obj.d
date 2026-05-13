@@ -1,8 +1,8 @@
 CMakeFiles/ecims.dir/src/Persistence.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\Persistence.cpp \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Persistence.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Inventory.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Component.h \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\Persistence.cpp \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Persistence.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Inventory.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Component.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -166,8 +166,8 @@ CMakeFiles/ecims.dir/src/Persistence.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/quoted_string.h \
  C:/msys64/mingw64/include/c++/15.2.0/sstream \
  C:/msys64/mingw64/include/c++/15.2.0/bits/sstream.tcc \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Taxonomy.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/TaxonomyNode.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Taxonomy.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/TaxonomyNode.h \
  C:/msys64/mingw64/include/c++/15.2.0/vector \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_vector.h \
@@ -194,25 +194,25 @@ CMakeFiles/ecims.dir/src/Persistence.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/atomic_lockfree_defines.h \
  C:/msys64/mingw64/include/c++/15.2.0/backward/auto_ptr.h \
  C:/msys64/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ProjectManager.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Project.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOM.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOMEntry.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/TransactionLog.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Transaction.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ComponentFactory.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Resistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/PassiveComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Capacitor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Inductor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/MOSFETTransistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Transistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ActiveComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BJTTransistor.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/DiodeComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/IntegratedCircuit.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ConnectorComponent.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/ArbitraryComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ProjectManager.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Project.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOM.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOMEntry.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/TransactionLog.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Transaction.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ComponentFactory.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Resistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/PassiveComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Capacitor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Inductor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/MOSFETTransistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Transistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ActiveComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BJTTransistor.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/DiodeComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/IntegratedCircuit.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ConnectorComponent.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/ArbitraryComponent.h \
  C:/msys64/mingw64/include/c++/15.2.0/fstream \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++io.h \

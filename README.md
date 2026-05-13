@@ -9,8 +9,8 @@ CMake is required to build the project
 
 ```bash
 mkdir build && cd build
-cmake ..
-make -j$(nproc)
+cmake -G "MinGW Makefiles" ..
+cmake --build .
 ./ecims
 ```
 

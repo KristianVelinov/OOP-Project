@@ -1,8 +1,8 @@
 CMakeFiles/ecims.dir/src/BOMCrossReferencer.cpp.obj: \
- C:\Users\krist\Documents\OOP\Checkpoint1\ecims\src\BOMCrossReferencer.cpp \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOMCrossReferencer.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/CrossReferenceResult.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOMEntry.h \
+ C:\Users\krist\Documents\OOP\OOP-Project\src\BOMCrossReferencer.cpp \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOMCrossReferencer.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/CrossReferenceResult.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOMEntry.h \
  C:/msys64/mingw64/include/c++/15.2.0/string \
  C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -106,7 +106,7 @@ CMakeFiles/ecims.dir/src/BOMCrossReferencer.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_vector.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/vector.tcc \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Component.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Component.h \
  C:/msys64/mingw64/include/c++/15.2.0/map \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_tree.h \
  C:/msys64/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
@@ -172,10 +172,10 @@ CMakeFiles/ecims.dir/src/BOMCrossReferencer.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/quoted_string.h \
  C:/msys64/mingw64/include/c++/15.2.0/sstream \
  C:/msys64/mingw64/include/c++/15.2.0/bits/sstream.tcc \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/BOM.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Inventory.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/Taxonomy.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/TaxonomyNode.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/BOM.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Inventory.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/Taxonomy.h \
+ C:/Users/krist/Documents/OOP/OOP-Project/include/TaxonomyNode.h \
  C:/msys64/mingw64/include/c++/15.2.0/algorithm \
  C:/msys64/mingw64/include/c++/15.2.0/bits/stl_algo.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/algorithmfwd.h \
@@ -197,4 +197,4 @@ CMakeFiles/ecims.dir/src/BOMCrossReferencer.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/bits/atomic_lockfree_defines.h \
  C:/msys64/mingw64/include/c++/15.2.0/backward/auto_ptr.h \
  C:/msys64/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h \
- C:/Users/krist/Documents/OOP/Checkpoint1/ecims/include/SmartMatcher.h
+ C:/Users/krist/Documents/OOP/OOP-Project/include/SmartMatcher.h
