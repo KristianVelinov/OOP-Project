@@ -156,8 +156,7 @@ Component* ComponentFactory::fromLine(const std::string& line) {
         double mv  = toD(f[13]);
         double mc  = toD(f[14]);
         std::string pack = f[15].empty() ? pkg : f[15];
-        
-        // FIX: Removed sv < 0.0 and mv < 0.0 checks to allow negative voltage regulators
+
         if (mc < 0.0) return nullptr; 
         return new IntegratedCircuit(id, name, qty, func, sv, mv, mc,
                                       pack, pins, mns, prc, cat, ds, fp, pkg);

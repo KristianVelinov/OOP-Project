@@ -74,6 +74,7 @@ ARBITRARY|ARB0072|Rotary Encoder|40|10|1.200000|Mechanical/Encoders|https://www.
 ARBITRARY|ARB0073|Trimpot 3362P 10k|50|10|0.450000|Passives/Potentiometers|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|THT|3|Trimmer|res=10k|turns=1
 ARBITRARY|ARB0074|Potentiometer 10k Lin|30|5|1.500000|Passives/Potentiometers|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Panel|3|Rotary|res=10k|taper=Linear
 ARBITRARY|ARB0075|Potentiometer 100k Log|30|5|1.500000|Passives/Potentiometers|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Panel|3|Rotary|res=100k|taper=Logarithmic
+ARBITRARY|ARB0076|130 DC Motor 3V|50|10|0.750000|Electromechanical/Motors/DC|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Motor|2|Small DC motor|speed=10000RPM|voltage=3V
 BJT|BJT0001|2N3904|200|50|0.050000|Semiconductors/Transistors/BJT/NPN|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|NPN|100.0000|40.0000|0.2000|TO-92
 BJT|BJT0002|BC547|200|50|0.050000|Semiconductors/Transistors/BJT/NPN|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|NPN|200.0000|45.0000|0.1000|TO-92
 BJT|BJT0003|2N2222A|200|50|0.080000|Semiconductors/Transistors/BJT/NPN|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|NPN|100.0000|40.0000|0.6000|TO-92
@@ -164,6 +165,8 @@ CAPACITOR|CAP0057|100uF Tantalum|20|5|0.900000|Passives/Capacitors/Tantalum|http
 CAPACITOR|CAP0058|220uF Tantalum|20|5|1.200000|Passives/Capacitors/Tantalum|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Case-E|2|0.000220000000|tantalum|10.000000000000|10.000000000000|Case-E
 CAPACITOR|CAP0059|330uF Tantalum|20|5|1.500000|Passives/Capacitors/Tantalum|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Case-E|2|0.000330000000|tantalum|10.000000000000|6.300000000000|Case-E
 CAPACITOR|CAP0060|470uF Tantalum|10|2|2.000000|Passives/Capacitors/Tantalum|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Case-E|2|0.000470000000|tantalum|10.000000000000|6.300000000000|Case-E
+CAPACITOR|CAP0064|22pF Ceramic|150|20|0.020000|Passives/Capacitors/Ceramic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Disc|2|0.000000000022|ceramic|5.000000000000|50.000000000000|Disc
+CAPACITOR|CAP0065|330uF Electro|50|10|0.120000|Passives/Capacitors/Electrolytic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000330000000|electrolytic|20.000000000000|25.000000000000|Radial
 CONNECTOR|CON0001|PinHeader 1x40 M|50|10|0.350000|Connectors/PinHeaders|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|PinHeader|40|Male Header|2.5400|male
 CONNECTOR|CON0002|PinHeader 1x40 F|50|10|0.450000|Connectors/PinHeaders|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|PinHeader|40|Female Header|2.5400|female
 CONNECTOR|CON0003|PinHeader 2x20 M|30|10|0.650000|Connectors/PinHeaders|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|PinHeader|40|Male Header Dual|2.5400|male
@@ -499,3 +502,5 @@ RESISTOR|RES0057|1M THT 1/4W|100|20|0.020000|Passives/Resistors/THT|https://www.
 RESISTOR|RES0058|1.5M THT 1/4W|100|20|0.020000|Passives/Resistors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Axial|2|1500000.000000|1.000000|0.250000|Axial
 RESISTOR|RES0059|2.2M THT 1/4W|100|20|0.020000|Passives/Resistors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Axial|2|2200000.000000|1.000000|0.250000|Axial
 RESISTOR|RES0060|10M THT 1/4W|100|20|0.020000|Passives/Resistors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Axial|2|10000000.000000|1.000000|0.250000|Axial
+RESISTOR|RES0062|330R|100|20|0.020000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Axial|2|330.000000|1.000000|0.250000|Axial
+RESISTOR|RES0063|4.7k SMD 0805|200|50|0.010000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|0805|2|4700.000000|1.000000|0.125000|0805

@@ -15,6 +15,7 @@ Passives/Inductors/Power
 Passives/Crystals
 Passives/Fuses
 Passives/Potentiometers
+Passives/THT
 Semiconductors
 Semiconductors/Transistors
 Semiconductors/Transistors/MOSFET
@@ -79,3 +80,6 @@ Mechanical/Encoders
 Other
 Modules
 Modules/Displays
+Electromechanical
+Electromechanical/Motors
+Electromechanical/Motors/DC
