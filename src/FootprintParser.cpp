@@ -74,7 +74,7 @@ int FootprintParser::extractPinCount(const std::string& footprint) {
     }
     // Simple -N at end or _PN_
     {
-        std::regex rx(R"([-_](\d+)(?:_|$))");
+        std::regex rx(R"([-_](\d+)(?:_|€))");
         std::smatch m;
         std::string s = footprint;
         // search from end of library: portion after ':'

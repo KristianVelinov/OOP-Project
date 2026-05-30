@@ -187,12 +187,17 @@ bool Persistence::saveTransactions(const ProjectManager& pm,
 bool Persistence::loadAll(Inventory& inv,
                            ProjectManager& pm,
                            const std::string& dir) {
-    if (!fs::exists(dir)) return false;
-    loadTaxonomy(inv,  dir + "/taxonomy.dat");
-    loadInventory(inv, dir + "/inventory.dat");
-    loadProjects(pm,   dir + "/projects.dat");
-    loadTransactions(pm, dir + "/transactions.dat");
-    return true;
+    bool ok = true;
+    ok &= loadInventory(inv,    dir + "/inventory.dat");
+    ok &= loadTaxonomy(inv,     dir + "/taxonomy.dat");
+    ok &= loadProjects(pm,      dir + "/projects.dat");
+    ok &= loadTransactions(pm,  dir + "/transactions.dat");
+    
+    if (ok) {
+        saveAll(inv, pm, dir);
+    }
+    
+    return ok;
 }
 
 bool Persistence::loadInventory(Inventory& inv, const std::string& path) {

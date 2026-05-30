@@ -19,7 +19,7 @@ void Component::displayBaseInfo() const {
               << "  Qty       : " << quantity_
                     << "  (min " << minStock_ << ")"
                     << (isLowStock() ? "  [!LOW STOCK]" : "") << "\n"
-              << "  Price     : $" << std::fixed << std::setprecision(4)
+              << "  Price     : €" << std::fixed << std::setprecision(4)
                     << unitPrice_ << "\n"
               << "  Category  : " << categoryPath_ << "\n"
               << "  Package   : " << (packageType_.empty() ? "-" : packageType_)

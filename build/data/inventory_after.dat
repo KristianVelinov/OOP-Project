@@ -352,7 +352,7 @@ IC|IC0070|DHT11|30|5|1.500000|Semiconductors/ICs/Sensors|https://www.youtube.com
 IC|IC0071|BME280|20|5|3.500000|Semiconductors/ICs/Sensors|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Module|6|Env Sensor|1.7000|3.6000|0.0010|Module
 IC|IC0072|MPU6050|30|5|2.500000|Semiconductors/ICs/Sensors|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Module|8|6-Axis IMU|2.3000|3.4000|0.0040|Module
 IC|IC0073|ADS1115|20|5|3.800000|Semiconductors/ICs/ADC|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Module|10|16-Bit ADC|2.0000|5.5000|0.0010|Module
-IC|IC0074|MCP3008|30|5|2.500000|Semiconductors/ICs/ADC|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|DIP-16|16|8-Ch 10-Bit ADC|2.7000|5.5000|0.0010|DIP-16
+IC|IC0074|MCP3008|30|5|2.500000|Semiconductors/ICs/ADC|https://classroom.google.com/c/ODA2Nzg2NjQ3MDI4/a/ODYwMDAxMDMzMzE0/details|Unknown|DIP-16|16|8-Ch 10-Bit ADC|2.7000|5.5000|0.0010|DIP-16
 IC|IC0075|MCP4725|30|5|2.200000|Semiconductors/ICs/DAC|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Module|6|12-Bit DAC|2.7000|5.5000|0.0010|Module
 IC|IC0076|PCF8574P|40|10|0.850000|Semiconductors/ICs/IOExpander|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|DIP-16|16|I2C IO Expander|2.5000|6.0000|0.0200|DIP-16
 IC|IC0077|MCP23017|30|5|1.500000|Semiconductors/ICs/IOExpander|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|DIP-28|28|16-Bit I2C IO|1.8000|5.5000|0.0200|DIP-28
@@ -419,26 +419,6 @@ MOSFET|MOS0007|IRLML6402|100|20|0.180000|Semiconductors/Transistors/MOSFET/P-Cha
 MOSFET|MOS0008|AO3401|100|20|0.120000|Semiconductors/Transistors/MOSFET/P-Channel|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|P-CH|30.000000|0.044000|4.000000|2.500000|0.000000|SOT-23
 MOSFET|MOS0009|FQP27P06|30|5|0.950000|Semiconductors/Transistors/MOSFET/P-Channel|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|P-CH|60.000000|0.070000|27.000000|10.000000|0.000000|TO-220
 MOSFET|MOS0010|IRF9540N|30|5|0.900000|Semiconductors/Transistors/MOSFET/P-Channel|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|P-CH|100.000000|0.117000|23.000000|10.000000|0.000000|TO-220
-MOSFET|MOS0011|IRF520N|50|10|0.500000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|N-CH|100.000000|0.200000|15.000000|9.700000|0.000000|TO-220
-MOSFET|MOS0012|IRF540N|50|10|0.600000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|N-CH|100.000000|0.044000|71.000000|33.000000|0.000000|TO-220
-MOSFET|MOS0013|IRF840|40|10|0.800000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|N-CH|500.000000|0.850000|38.000000|8.000000|0.000000|TO-220
-MOSFET|MOS0014|STP55NF06L|40|10|0.750000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|N-CH|60.000000|0.018000|35.000000|55.000000|0.000000|TO-220
-MOSFET|MOS0015|IRL540N|40|10|0.850000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|N-CH|100.000000|0.044000|74.000000|36.000000|0.000000|TO-220
-MOSFET|MOS0016|2N7000|200|50|0.050000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|N-CH|60.000000|5.000000|0.100000|0.200000|0.000000|TO-92
-MOSFET|MOS0017|BS170|200|50|0.050000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|N-CH|60.000000|5.000000|0.100000|0.500000|0.000000|TO-92
-MOSFET|MOS0018|IRFD110|100|20|0.450000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|DIP-4|4|N-CH|100.000000|0.540000|8.300000|1.000000|0.000000|DIP-4
-MOSFET|MOS0019|FDV301N|100|20|0.120000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|N-CH|25.000000|4.000000|0.500000|0.220000|0.000000|SOT-23
-MOSFET|MOS0020|SI2302|100|20|0.080000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|N-CH|20.000000|0.085000|6.000000|2.800000|0.000000|SOT-23
-MOSFET|MOS0021|IRF9Z24N|50|10|0.650000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|P-CH|55.000000|0.175000|19.000000|12.000000|0.000000|TO-220
-MOSFET|MOS0022|IRF9530N|40|10|0.800000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|P-CH|100.000000|0.200000|38.000000|14.000000|0.000000|TO-220
-MOSFET|MOS0023|FQP47P06|30|5|1.100000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|P-CH|60.000000|0.026000|84.000000|47.000000|0.000000|TO-220
-MOSFET|MOS0024|SI2301|100|20|0.080000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|P-CH|20.000000|0.130000|5.000000|2.300000|0.000000|SOT-23
-MOSFET|MOS0025|SI2305|100|20|0.100000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|P-CH|8.000000|0.065000|8.000000|4.100000|0.000000|SOT-23
-MOSFET|MOS0026|BSS84P|100|20|0.060000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|P-CH|50.000000|8.000000|0.200000|0.170000|0.000000|SOT-23
-MOSFET|MOS0027|TP0610K|100|20|0.150000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|P-CH|60.000000|10.000000|0.500000|0.120000|0.000000|SOT-23
-MOSFET|MOS0028|NDP6020P|40|10|1.200000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|P-CH|20.000000|0.050000|30.000000|24.000000|0.000000|TO-220
-MOSFET|MOS0029|IRLML5203|100|20|0.180000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|P-CH|30.000000|0.098000|10.000000|3.000000|0.000000|SOT-23
-MOSFET|MOS0030|ZXMP6A17E6|50|10|0.450000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23-6|6|P-CH|60.000000|0.125000|12.000000|3.000000|0.000000|SOT-23-6
 RESISTOR|RES0001|10R SMD 0402|100|20|0.005000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|0402|2|10.000000|1.000000|0.063000|0402
 RESISTOR|RES0002|100R SMD 0603|100|20|0.010000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|0603|2|100.000000|1.000000|0.100000|0603
 RESISTOR|RES0003|1k SMD 0805|500|50|0.015000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|0805|2|1000.000000|1.000000|0.125000|0805

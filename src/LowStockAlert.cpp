@@ -34,7 +34,7 @@ std::string LowStockAlert::generateReport(const Inventory& inv) {
             << std::setw(8)  << c->getQuantity()
             << std::setw(8)  << c->getMinStock()
             << std::setw(8)  << need
-            << "$" << std::fixed << std::setprecision(4)
+            << "€" << std::fixed << std::setprecision(4)
                    << c->getUnitPrice() << "\n";
     }
     oss << "═══════════════════════════════════════════════════════\n";
