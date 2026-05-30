@@ -1,0 +1,4 @@
+ID,Name,Qty,MinStock,Deficit,UnitPrice,Category
+BJT0001,2N3904,30,50,20,0.05,Semiconductors/Transistors/BJT/NPN
+RES0005,100k SMD 1210,0,20,20,0.03,Passives/Resistors/SMD
+BJT0002,BC547,50,50,0,0.05,Semiconductors/Transistors/BJT/NPN

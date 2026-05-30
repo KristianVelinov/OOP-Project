@@ -205,7 +205,7 @@ static bool parametricMatch(const ParsedValue& pv,
     if (stored <= 0.0) return false;
 
     double ratio = pv.siValue / stored;
-    return (ratio > 0.98 && ratio < 1.02);
+    return (ratio > 0.995 && ratio < 1.005); // allows tolerance of up to ±0.5 % (e.g. 4.7uF matching 4.68uF) without false positives across E-series values
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
