@@ -1,0 +1,501 @@
+# ECIMS Inventory v3
+RESISTOR|RES0001|10R SMD 0402|100|20|0.005000|Passives/Resistors/SMD|||0402|2|10.00|1.00|0.063|0402
+RESISTOR|RES0002|100R SMD 0603|100|20|0.010000|Passives/Resistors/SMD|||0603|2|100.00|1.00|0.100|0603
+RESISTOR|RES0003|1k SMD 0805|500|50|0.015000|Passives/Resistors/SMD|||0805|2|1000.00|1.00|0.125|0805
+RESISTOR|RES0004|10k SMD 1206|500|50|0.020000|Passives/Resistors/SMD|||1206|2|10000.00|1.00|0.250|1206
+RESISTOR|RES0005|100k SMD 1210|200|20|0.030000|Passives/Resistors/SMD|||1210|2|100000.00|1.00|0.500|1210
+RESISTOR|RES0006|10R THT 1/4W|100|20|0.020000|Passives/Resistors/THT|||Axial|2|10.00|1.00|0.250|Axial
+RESISTOR|RES0007|100R THT 1/4W|200|20|0.020000|Passives/Resistors/THT|||Axial|2|100.00|1.00|0.250|Axial
+RESISTOR|RES0008|1k THT 1/4W|300|50|0.020000|Passives/Resistors/THT|||Axial|2|1000.00|1.00|0.250|Axial
+RESISTOR|RES0009|10k THT 1/4W|300|50|0.020000|Passives/Resistors/THT|||Axial|2|10000.00|1.00|0.250|Axial
+RESISTOR|RES0010|100k THT 1/4W|100|20|0.020000|Passives/Resistors/THT|||Axial|2|100000.00|1.00|0.250|Axial
+CAPACITOR|CAP0001|10pF Ceramic|100|20|0.020000|Passives/Capacitors/Ceramic|||Disc|2|0.000000000010|ceramic|50.0|125.0|Disc
+CAPACITOR|CAP0002|100pF Ceramic|100|20|0.020000|Passives/Capacitors/Ceramic|||Disc|2|0.000000000100|ceramic|50.0|125.0|Disc
+CAPACITOR|CAP0003|1nF Ceramic|200|20|0.020000|Passives/Capacitors/Ceramic|||Disc|2|0.000000001000|ceramic|50.0|125.0|Disc
+CAPACITOR|CAP0004|10nF Ceramic|200|20|0.020000|Passives/Capacitors/Ceramic|||Disc|2|0.000000010000|ceramic|50.0|125.0|Disc
+CAPACITOR|CAP0005|100nF Ceramic|500|50|0.020000|Passives/Capacitors/Ceramic|||Disc|2|0.000000100000|ceramic|50.0|125.0|Disc
+CAPACITOR|CAP0006|1uF Electro|100|20|0.050000|Passives/Capacitors/Electrolytic|||Radial|2|0.000001|electrolytic|50.0|105.0|Radial
+CAPACITOR|CAP0007|10uF Electro|100|20|0.060000|Passives/Capacitors/Electrolytic|||Radial|2|0.000010|electrolytic|25.0|105.0|Radial
+CAPACITOR|CAP0008|47uF Electro|100|20|0.080000|Passives/Capacitors/Electrolytic|||Radial|2|0.000047|electrolytic|25.0|105.0|Radial
+CAPACITOR|CAP0009|100uF Electro|100|20|0.100000|Passives/Capacitors/Electrolytic|||Radial|2|0.000100|electrolytic|16.0|105.0|Radial
+CAPACITOR|CAP0010|470uF Electro|50|10|0.150000|Passives/Capacitors/Electrolytic|||Radial|2|0.000470|electrolytic|16.0|105.0|Radial
+CAPACITOR|CAP0011|1uF Tantalum|50|10|0.250000|Passives/Capacitors/Tantalum|||Case-A|2|0.000001|tantalum|16.0|125.0|Case-A
+CAPACITOR|CAP0012|2.2uF Tantalum|50|10|0.280000|Passives/Capacitors/Tantalum|||Case-A|2|0.000002|tantalum|16.0|125.0|Case-A
+CAPACITOR|CAP0013|4.7uF Tantalum|50|10|0.300000|Passives/Capacitors/Tantalum|||Case-B|2|0.000004|tantalum|16.0|125.0|Case-B
+CAPACITOR|CAP0014|10uF Tantalum|50|10|0.350000|Passives/Capacitors/Tantalum|||Case-B|2|0.000010|tantalum|16.0|125.0|Case-B
+CAPACITOR|CAP0015|22uF Tantalum|30|5|0.450000|Passives/Capacitors/Tantalum|||Case-C|2|0.000022|tantalum|16.0|125.0|Case-C
+CAPACITOR|CAP0016|10nF Film|100|20|0.080000|Passives/Capacitors/Film|||Radial|2|0.00000001|film|63.0|85.0|Radial
+CAPACITOR|CAP0017|47nF Film|100|20|0.100000|Passives/Capacitors/Film|||Radial|2|0.000000047|film|63.0|85.0|Radial
+CAPACITOR|CAP0018|100nF Film|200|20|0.120000|Passives/Capacitors/Film|||Radial|2|0.000000100|film|63.0|85.0|Radial
+CAPACITOR|CAP0019|470nF Film|50|10|0.180000|Passives/Capacitors/Film|||Radial|2|0.000000470|film|63.0|85.0|Radial
+CAPACITOR|CAP0020|1uF Film|50|10|0.250000|Passives/Capacitors/Film|||Radial|2|0.000001000|film|63.0|85.0|Radial
+INDUCTOR|IND0001|1uH SMD|50|10|0.150000|Passives/Inductors/SMD|||0805|2|0.000001|1.00|0.10|0805
+INDUCTOR|IND0002|2.2uH SMD|50|10|0.180000|Passives/Inductors/SMD|||1206|2|0.0000022|1.50|0.15|1206
+INDUCTOR|IND0003|4.7uH SMD|50|10|0.200000|Passives/Inductors/SMD|||1210|2|0.0000047|2.00|0.20|1210
+INDUCTOR|IND0004|10uH SMD|100|20|0.250000|Passives/Inductors/SMD|||1210|2|0.000010|1.50|0.30|1210
+INDUCTOR|IND0005|22uH SMD|50|10|0.280000|Passives/Inductors/SMD|||1210|2|0.000022|1.20|0.50|1210
+INDUCTOR|IND0006|10uH THT|50|10|0.450000|Passives/Inductors/THT|||Radial|2|0.000010|2.00|0.10|Radial
+INDUCTOR|IND0007|47uH THT|50|10|0.500000|Passives/Inductors/THT|||Radial|2|0.000047|1.50|0.25|Radial
+INDUCTOR|IND0008|100uH THT|50|10|0.650000|Passives/Inductors/THT|||Radial|2|0.000100|1.00|0.50|Radial
+INDUCTOR|IND0009|470uH THT|30|5|0.800000|Passives/Inductors/THT|||Radial|2|0.000470|0.80|1.20|Radial
+INDUCTOR|IND0010|1mH THT|30|5|1.100000|Passives/Inductors/THT|||Radial|2|0.001000|0.50|2.50|Radial
+ARBITRARY|ARB0001|Crystal 32.768kHz|50|10|0.150000|Passives/Crystals|||Cylinder|2|RTC Crystal|freq=32768|load=12.5pF
+ARBITRARY|ARB0002|Crystal 8MHz|50|10|0.180000|Passives/Crystals|||HC-49|2|8MHz Crystal|freq=8000000|load=18pF
+ARBITRARY|ARB0003|Crystal 12MHz|50|10|0.180000|Passives/Crystals|||HC-49|2|12MHz Crystal|freq=12000000|load=18pF
+ARBITRARY|ARB0004|Crystal 16MHz|50|10|0.200000|Passives/Crystals|||HC-49|2|16MHz Crystal|freq=16000000|load=18pF
+ARBITRARY|ARB0005|Crystal 24MHz|50|10|0.220000|Passives/Crystals|||HC-49|2|24MHz Crystal|freq=24000000|load=18pF
+ARBITRARY|ARB0006|PTC Fuse 500mA|50|10|0.250000|Passives/Fuses|||Radial|2|Resettable PTC|rating=0.5A|trip=1.0A
+ARBITRARY|ARB0007|PTC Fuse 1A|50|10|0.300000|Passives/Fuses|||Radial|2|Resettable PTC|rating=1.0A|trip=2.0A
+ARBITRARY|ARB0008|Glass Fuse 2A|50|10|0.150000|Passives/Fuses|||5x20|2|Fast-Blow Glass|rating=2.0A|size=5x20mm
+ARBITRARY|ARB0009|Glass Fuse 5A|50|10|0.150000|Passives/Fuses|||5x20|2|Fast-Blow Glass|rating=5.0A|size=5x20mm
+ARBITRARY|ARB0010|Blade Fuse 10A|30|5|0.400000|Passives/Fuses|||ATC|2|Automotive Blade|rating=10.0A|type=ATC
+ARBITRARY|ARB0011|Potentiometer 1k|20|5|0.850000|Passives/Potentiometers|||THT|3|Trimpot 3296W|res=1000|turns=25
+ARBITRARY|ARB0012|Potentiometer 5k|20|5|0.850000|Passives/Potentiometers|||THT|3|Trimpot 3296W|res=5000|turns=25
+ARBITRARY|ARB0013|Potentiometer 10k|30|5|0.850000|Passives/Potentiometers|||THT|3|Trimpot 3296W|res=10000|turns=25
+ARBITRARY|ARB0014|Potentiometer 50k|20|5|0.850000|Passives/Potentiometers|||THT|3|Trimpot 3296W|res=50000|turns=25
+ARBITRARY|ARB0015|Potentiometer 100k|20|5|0.850000|Passives/Potentiometers|||THT|3|Trimpot 3296W|res=100000|turns=25
+MOSFET|MOS0001|2N7002|100|20|0.040000|Semiconductors/Transistors/MOSFET/N-Channel|||SOT-23|3|N-CH|60.0|3.0|0.115|5.0|SOT-23||
+MOSFET|MOS0002|BSS138|100|20|0.050000|Semiconductors/Transistors/MOSFET/N-Channel|||SOT-23|3|N-CH|50.0|3.5|0.220|3.3|SOT-23||
+MOSFET|MOS0003|IRFZ44N|50|10|0.650000|Semiconductors/Transistors/MOSFET/N-Channel|||TO-220|3|N-CH|55.0|0.017|49.0|10.0|TO-220||
+MOSFET|MOS0004|IRLZ44N|50|10|0.700000|Semiconductors/Transistors/MOSFET/N-Channel|||TO-220|3|N-CH|55.0|0.022|47.0|5.0|TO-220||
+MOSFET|MOS0005|IRLML2502|100|20|0.150000|Semiconductors/Transistors/MOSFET/N-Channel|||SOT-23|3|N-CH|20.0|0.045|4.2|2.5|SOT-23||
+MOSFET|MOS0006|BSS84|100|20|0.060000|Semiconductors/Transistors/MOSFET/P-Channel|||SOT-23|3|P-CH|50.0|10.0|0.130|5.0|SOT-23||
+MOSFET|MOS0007|IRLML6402|100|20|0.180000|Semiconductors/Transistors/MOSFET/P-Channel|||SOT-23|3|P-CH|20.0|0.065|3.7|2.5|SOT-23||
+MOSFET|MOS0008|AO3401|100|20|0.120000|Semiconductors/Transistors/MOSFET/P-Channel|||SOT-23|3|P-CH|30.0|0.044|4.0|2.5|SOT-23||
+MOSFET|MOS0009|FQP27P06|30|5|0.950000|Semiconductors/Transistors/MOSFET/P-Channel|||TO-220|3|P-CH|60.0|0.070|27.0|10.0|TO-220||
+MOSFET|MOS0010|IRF9540N|30|5|0.900000|Semiconductors/Transistors/MOSFET/P-Channel|||TO-220|3|P-CH|100.0|0.117|23.0|10.0|TO-220||
+BJT|BJT0001|2N3904|200|50|0.050000|Semiconductors/Transistors/BJT/NPN|||TO-92|3|NPN|100.0|40.0|0.200|TO-92|
+BJT|BJT0002|BC547|200|50|0.050000|Semiconductors/Transistors/BJT/NPN|||TO-92|3|NPN|200.0|45.0|0.100|TO-92|
+BJT|BJT0003|2N2222A|200|50|0.080000|Semiconductors/Transistors/BJT/NPN|||TO-92|3|NPN|100.0|40.0|0.600|TO-92|
+BJT|BJT0004|TIP120|50|10|0.450000|Semiconductors/Transistors/BJT/NPN|||TO-220|3|NPN|1000.0|60.0|5.000|TO-220|
+BJT|BJT0005|BD139|50|10|0.300000|Semiconductors/Transistors/BJT/NPN|||TO-126|3|NPN|40.0|80.0|1.500|TO-126|
+BJT|BJT0006|2N3906|200|50|0.050000|Semiconductors/Transistors/BJT/PNP|||TO-92|3|PNP|100.0|40.0|0.200|TO-92|
+BJT|BJT0007|BC557|200|50|0.050000|Semiconductors/Transistors/BJT/PNP|||TO-92|3|PNP|200.0|45.0|0.100|TO-92|
+BJT|BJT0008|TIP125|50|10|0.450000|Semiconductors/Transistors/BJT/PNP|||TO-220|3|PNP|1000.0|60.0|5.000|TO-220|
+BJT|BJT0009|BD140|50|10|0.300000|Semiconductors/Transistors/BJT/PNP|||TO-126|3|PNP|40.0|80.0|1.500|TO-126|
+BJT|BJT0010|BC327|100|20|0.080000|Semiconductors/Transistors/BJT/PNP|||TO-92|3|PNP|100.0|45.0|0.800|TO-92|
+ARBITRARY|ARB0016|FGA25N120|15|5|2.500000|Semiconductors/Transistors/IGBT|||TO-3P|3|1200V IGBT|I_c=25A|V_ce=1200V
+ARBITRARY|ARB0017|IKW40N120H3|15|5|3.200000|Semiconductors/Transistors/IGBT|||TO-247|3|1200V High Speed IGBT|I_c=40A|V_ce=1200V
+ARBITRARY|ARB0018|STGW40V120DF|10|2|4.100000|Semiconductors/Transistors/IGBT|||TO-247|3|1200V Trench IGBT|I_c=40A|V_ce=1200V
+ARBITRARY|ARB0019|IRG4PC50W|15|5|2.800000|Semiconductors/Transistors/IGBT|||TO-247|3|600V Warp IGBT|I_c=55A|V_ce=600V
+ARBITRARY|ARB0020|IXYH40N120C3|10|2|4.500000|Semiconductors/Transistors/IGBT|||TO-247|3|1200V GenX3 IGBT|I_c=40A|V_ce=1200V
+ARBITRARY|ARB0021|J310|50|10|0.450000|Semiconductors/Transistors/JFET|||TO-92|3|N-Channel RF JFET|V_ds=25V|I_d=60mA
+ARBITRARY|ARB0022|2N5457|50|10|0.400000|Semiconductors/Transistors/JFET|||TO-92|3|N-Channel JFET|V_ds=25V|I_d=5mA
+ARBITRARY|ARB0023|2N5458|50|10|0.400000|Semiconductors/Transistors/JFET|||TO-92|3|N-Channel JFET|V_ds=25V|I_d=9mA
+ARBITRARY|ARB0024|BF245A|30|5|0.550000|Semiconductors/Transistors/JFET|||TO-92|3|N-Channel RF JFET|V_ds=30V|I_d=6mA
+ARBITRARY|ARB0025|J113|40|10|0.350000|Semiconductors/Transistors/JFET|||TO-92|3|N-Channel Chopper JFET|V_ds=35V|I_d=2mA
+DIODE|DIO0001|1N4001|200|50|0.020000|Semiconductors/Diodes/Rectifier|||DO-41|2|1.00|50.0|rectifier|1.0|DO-41|
+DIODE|DIO0002|1N4004|200|50|0.020000|Semiconductors/Diodes/Rectifier|||DO-41|2|1.00|400.0|rectifier|1.0|DO-41|
+DIODE|DIO0003|1N4007|500|100|0.020000|Semiconductors/Diodes/Rectifier|||DO-41|2|1.00|1000.0|rectifier|1.0|DO-41|
+DIODE|DIO0004|1N5408|100|20|0.080000|Semiconductors/Diodes/Rectifier|||DO-201AD|2|1.20|1000.0|rectifier|3.0|DO-201AD|
+DIODE|DIO0005|M7|300|50|0.030000|Semiconductors/Diodes/Rectifier|||SMA|2|1.10|1000.0|rectifier|1.0|SMA|
+DIODE|DIO0006|1N5817|100|20|0.060000|Semiconductors/Diodes/Schottky|||DO-41|2|0.45|20.0|schottky|1.0|DO-41|
+DIODE|DIO0007|1N5819|200|20|0.060000|Semiconductors/Diodes/Schottky|||DO-41|2|0.60|40.0|schottky|1.0|DO-41|
+DIODE|DIO0008|1N5822|100|20|0.150000|Semiconductors/Diodes/Schottky|||DO-201AD|2|0.52|40.0|schottky|3.0|DO-201AD|
+DIODE|DIO0009|SS14|300|50|0.050000|Semiconductors/Diodes/Schottky|||SMA|2|0.50|40.0|schottky|1.0|SMA|
+DIODE|DIO0010|SS34|200|50|0.100000|Semiconductors/Diodes/Schottky|||SMC|2|0.50|40.0|schottky|3.0|SMC|
+DIODE|DIO0011|BZX55C3V3|100|20|0.050000|Semiconductors/Diodes/Zener|||DO-35|2|3.30|3.30|zener|0.2|DO-35|
+DIODE|DIO0012|BZX55C5V1|100|20|0.050000|Semiconductors/Diodes/Zener|||DO-35|2|5.10|5.10|zener|0.2|DO-35|
+DIODE|DIO0013|BZX55C9V1|100|20|0.050000|Semiconductors/Diodes/Zener|||DO-35|2|9.10|9.10|zener|0.2|DO-35|
+DIODE|DIO0014|1N4742A|100|20|0.080000|Semiconductors/Diodes/Zener|||DO-41|2|12.00|12.00|zener|1.0|DO-41|
+DIODE|DIO0015|1N4744A|100|20|0.080000|Semiconductors/Diodes/Zener|||DO-41|2|15.00|15.00|zener|1.0|DO-41|
+DIODE|DIO0016|SMAJ5.0A|50|10|0.150000|Semiconductors/Diodes/TVS|||SMA|2|6.40|5.00|tvs|40.0|SMA|
+DIODE|DIO0017|SMAJ12A|50|10|0.150000|Semiconductors/Diodes/TVS|||SMA|2|13.30|12.00|tvs|20.0|SMA|
+DIODE|DIO0018|SMAJ24A|50|10|0.150000|Semiconductors/Diodes/TVS|||SMA|2|26.70|24.00|tvs|10.0|SMA|
+DIODE|DIO0019|P6KE6.8A|50|10|0.200000|Semiconductors/Diodes/TVS|||DO-15|2|6.45|5.80|tvs|60.0|DO-15|
+DIODE|DIO0020|P6KE36A|50|10|0.200000|Semiconductors/Diodes/TVS|||DO-15|2|34.20|30.80|tvs|12.0|DO-15|
+DIODE|DIO0021|LED Red 5mm|200|50|0.040000|Semiconductors/Diodes/LED|||5mm|2|2.00|5.00|led|0.02|5mm|
+DIODE|DIO0022|LED Green 5mm|200|50|0.040000|Semiconductors/Diodes/LED|||5mm|2|2.20|5.00|led|0.02|5mm|
+DIODE|DIO0023|LED Blue 5mm|100|20|0.060000|Semiconductors/Diodes/LED|||5mm|2|3.20|5.00|led|0.02|5mm|
+DIODE|DIO0024|LED Yellow 5mm|100|20|0.040000|Semiconductors/Diodes/LED|||5mm|2|2.10|5.00|led|0.02|5mm|
+DIODE|DIO0025|LED White 5mm|100|20|0.060000|Semiconductors/Diodes/LED|||5mm|2|3.20|5.00|led|0.02|5mm|
+IC|IC0001|LM7805CV|50|10|0.450000|Semiconductors/ICs/Power/LDO|||TO-220|3|Linear Regulator 5V|7.0|35.0|1.5|TO-220|
+IC|IC0002|LM7812CV|40|10|0.450000|Semiconductors/ICs/Power/LDO|||TO-220|3|Linear Regulator 12V|14.0|35.0|1.5|TO-220|
+IC|IC0003|AMS1117-3.3|100|20|0.150000|Semiconductors/ICs/Power/LDO|||SOT-223|3|LDO Regulator 3.3V|4.7|15.0|1.0|SOT-223|
+IC|IC0004|AMS1117-5.0|100|20|0.150000|Semiconductors/ICs/Power/LDO|||SOT-223|3|LDO Regulator 5.0V|6.5|15.0|1.0|SOT-223|
+IC|IC0005|LD33V|30|5|0.500000|Semiconductors/ICs/Power/LDO|||TO-220|3|LDO Regulator 3.3V|4.7|15.0|0.8|TO-220|
+IC|IC0006|LM2596T-ADJ|20|5|1.500000|Semiconductors/ICs/Power/DCDC|||TO-220-5|5|Step-down Switcher|4.5|40.0|3.0|TO-220-5|
+IC|IC0007|MC34063A|50|10|0.350000|Semiconductors/ICs/Power/DCDC|||DIP-8|8|Boost/Buck Switcher|3.0|40.0|1.5|DIP-8|
+IC|IC0008|MT3608|100|20|0.250000|Semiconductors/ICs/Power/DCDC|||SOT-23-6|6|Boost Converter|2.0|24.0|2.0|SOT-23-6|
+IC|IC0009|XL4015|20|5|1.200000|Semiconductors/ICs/Power/DCDC|||TO-263-5|5|5A Buck Converter|8.0|36.0|5.0|TO-263-5|
+IC|IC0010|MP1584EN|30|5|0.800000|Semiconductors/ICs/Power/DCDC|||SOIC-8|8|3A Buck Converter|4.5|28.0|3.0|SOIC-8|
+IC|IC0011|IR2110|20|5|1.800000|Semiconductors/ICs/Power/DriveGate|||DIP-14|14|High/Low Side Driver|10.0|20.0|2.0|DIP-14|
+IC|IC0012|TC4420CPA|30|5|1.200000|Semiconductors/ICs/Power/DriveGate|||DIP-8|8|6A MOSFET Driver|4.5|18.0|6.0|DIP-8|
+IC|IC0013|TC4429CPA|30|5|1.200000|Semiconductors/ICs/Power/DriveGate|||DIP-8|8|6A Inverting Driver|4.5|18.0|6.0|DIP-8|
+IC|IC0014|IRS2092|15|5|2.500000|Semiconductors/ICs/Power/DriveGate|||DIP-16|16|Class D Audio Driver|10.0|18.0|1.2|DIP-16|
+IC|IC0015|UCC27517|40|10|0.900000|Semiconductors/ICs/Power/DriveGate|||SOT-23-5|5|4A Low-Side Driver|4.5|18.0|4.0|SOT-23-5|
+IC|IC0016|LM358P|50|10|0.200000|Semiconductors/ICs/OpAmps|||DIP-8|8|Dual Op-Amp|3.0|32.0|0.04|DIP-8|
+IC|IC0017|LM324N|40|10|0.250000|Semiconductors/ICs/OpAmps|||DIP-14|14|Quad Op-Amp|3.0|32.0|0.04|DIP-14|
+IC|IC0018|TL072CP|40|10|0.350000|Semiconductors/ICs/OpAmps|||DIP-8|8|Dual JFET Op-Amp|7.0|36.0|0.0025|DIP-8|
+IC|IC0019|NE5532P|30|10|0.450000|Semiconductors/ICs/OpAmps|||DIP-8|8|Dual Audio Op-Amp|10.0|30.0|0.038|DIP-8|
+IC|IC0020|OPA2134PA|10|2|3.500000|Semiconductors/ICs/OpAmps|||DIP-8|8|High Perf Audio Amp|5.0|36.0|0.035|DIP-8|
+IC|IC0021|LM393P|50|10|0.200000|Semiconductors/ICs/Comparators|||DIP-8|8|Dual Comparator|2.0|36.0|0.016|DIP-8|
+IC|IC0022|LM339N|40|10|0.250000|Semiconductors/ICs/Comparators|||DIP-14|14|Quad Comparator|2.0|36.0|0.016|DIP-14|
+IC|IC0023|TLC372CP|30|5|0.450000|Semiconductors/ICs/Comparators|||DIP-8|8|Dual CMOS Comparator|3.0|16.0|0.02|DIP-8|
+IC|IC0024|MCP6541|40|10|0.550000|Semiconductors/ICs/Comparators|||SOT-23-5|5|Push-Pull Comparator|1.6|5.5|0.001|SOT-23-5|
+IC|IC0025|LM311P|30|5|0.350000|Semiconductors/ICs/Comparators|||DIP-8|8|Single Comparator|5.0|30.0|0.05|DIP-8|
+IC|IC0026|ATmega328P-PU|30|5|2.800000|Semiconductors/ICs/Microcontrollers|||DIP-28|28|8-bit AVR MCU|1.8|5.5|0.2|DIP-28|
+IC|IC0027|ATtiny85-20PU|20|5|1.900000|Semiconductors/ICs/Microcontrollers|||DIP-8|8|8-bit AVR MCU|2.7|5.5|0.2|DIP-8|
+IC|IC0028|ESP32-WROOM-32|15|2|4.500000|Semiconductors/ICs/Microcontrollers|||Module|38|WiFi/BT SoC|3.0|3.6|0.5|Module|
+IC|IC0029|STM32F103C8T6|20|5|3.500000|Semiconductors/ICs/Microcontrollers|||LQFP-48|48|32-bit ARM MCU|2.0|3.6|0.15|LQFP-48|
+IC|IC0030|RP2040|25|5|1.200000|Semiconductors/ICs/Microcontrollers|||QFN-56|56|Dual Cortex-M0+|1.8|3.3|0.05|QFN-56|
+IC|IC0031|SN74HC00N|40|10|0.250000|Semiconductors/ICs/Logic|||DIP-14|14|Quad 2-In NAND|2.0|6.0|0.02|DIP-14|
+IC|IC0032|SN74HC04N|40|10|0.250000|Semiconductors/ICs/Logic|||DIP-14|14|Hex Inverter|2.0|6.0|0.02|DIP-14|
+IC|IC0033|SN74HC595N|50|10|0.350000|Semiconductors/ICs/Logic|||DIP-16|16|8-Bit Shift Register|2.0|6.0|0.07|DIP-16|
+IC|IC0034|CD4017BE|30|5|0.400000|Semiconductors/ICs/Logic|||DIP-16|16|Decade Counter|3.0|18.0|0.01|DIP-16|
+IC|IC0035|SN74HC14N|40|10|0.300000|Semiconductors/ICs/Logic|||DIP-14|14|Hex Schmitt Inverter|2.0|6.0|0.02|DIP-14|
+IC|IC0036|24LC256-I/P|30|5|0.800000|Semiconductors/ICs/Memory|||DIP-8|8|256K I2C EEPROM|2.5|5.5|0.005|DIP-8|
+IC|IC0037|W25Q128JVSIQ|40|10|1.100000|Semiconductors/ICs/Memory|||SOIC-8|8|128M-bit SPI Flash|2.7|3.6|0.025|SOIC-8|
+IC|IC0038|AT24C02|50|10|0.250000|Semiconductors/ICs/Memory|||DIP-8|8|2K I2C EEPROM|1.8|5.5|0.003|DIP-8|
+IC|IC0039|AT24C32|40|10|0.350000|Semiconductors/ICs/Memory|||DIP-8|8|32K I2C EEPROM|1.8|5.5|0.003|DIP-8|
+IC|IC0040|M95256-WMN6TP|20|5|0.950000|Semiconductors/ICs/Memory|||SOIC-8|8|256K SPI EEPROM|2.5|5.5|0.005|SOIC-8|
+IC|IC0041|MAX232CPE|30|5|0.900000|Semiconductors/ICs/Communication|||DIP-16|16|RS-232 Transceiver|4.5|5.5|0.01|DIP-16|
+IC|IC0042|CH340G|50|10|0.550000|Semiconductors/ICs/Communication|||SOP-16|16|USB to UART|3.3|5.0|0.03|SOP-16|
+IC|IC0043|CP2102-GM|20|5|1.600000|Semiconductors/ICs/Communication|||QFN-28|28|USB to UART Bridge|3.0|3.6|0.026|QFN-28|
+IC|IC0044|FT232RL|15|5|3.500000|Semiconductors/ICs/Communication|||SSOP-28|28|USB to UART Bridge|3.3|5.2|0.015|SSOP-28|
+IC|IC0045|MCP2515-I/P|20|5|1.800000|Semiconductors/ICs/Communication|||DIP-18|18|CAN Controller|2.7|5.5|0.01|DIP-18|
+IC|IC0046|LTC4365|10|2|4.200000|Semiconductors/ICs/Protection|||MSOP-10|10|OV/UV Protection|2.5|18.0|0.01|MSOP-10|
+IC|IC0047|BQ2970|30|5|0.650000|Semiconductors/ICs/Protection|||SON-6|6|Li-Ion Protection|1.5|8.0|0.001|SON-6|
+IC|IC0048|DW01A|100|20|0.150000|Semiconductors/ICs/Protection|||SOT-23-6|6|Battery Protection|1.5|8.0|0.003|SOT-23-6|
+IC|IC0049|TP4056|100|20|0.250000|Semiconductors/ICs/Protection|||SOP-8|8|Linear Li-Ion Charger|4.0|8.0|1.0|SOP-8|
+IC|IC0050|MAX809S|50|10|0.450000|Semiconductors/ICs/Protection|||SOT-23|3|Reset Monitor|1.2|5.5|0.001|SOT-23|
+CONNECTOR|CON0001|PinHeader 1x40 M|50|10|0.350000|Connectors/PinHeaders|||PinHeader|40|Male Header|2.54|male
+CONNECTOR|CON0002|PinHeader 1x40 F|50|10|0.450000|Connectors/PinHeaders|||PinHeader|40|Female Header|2.54|female
+CONNECTOR|CON0003|PinHeader 2x20 M|30|10|0.650000|Connectors/PinHeaders|||PinHeader|40|Male Header Dual|2.54|male
+CONNECTOR|CON0004|PinHeader 2x03 M|50|10|0.150000|Connectors/PinHeaders|||PinHeader|6|AVR ISP Header|2.54|male
+CONNECTOR|CON0005|PinHeader 1x08 F|50|10|0.200000|Connectors/PinHeaders|||PinHeader|8|Female Header|2.54|female
+CONNECTOR|CON0006|Terminal 2-pin 5.08|50|10|0.250000|Connectors/ScrewTerminals|||TerminalBlock|2|Screw Terminal|5.08|female
+CONNECTOR|CON0007|Terminal 3-pin 5.08|40|10|0.350000|Connectors/ScrewTerminals|||TerminalBlock|3|Screw Terminal|5.08|female
+CONNECTOR|CON0008|Terminal 4-pin 5.08|30|10|0.450000|Connectors/ScrewTerminals|||TerminalBlock|4|Screw Terminal|5.08|female
+CONNECTOR|CON0009|Terminal 2-pin 3.5|50|10|0.200000|Connectors/ScrewTerminals|||TerminalBlock|2|Screw Terminal|3.50|female
+CONNECTOR|CON0010|Terminal 3-pin 3.5|40|10|0.300000|Connectors/ScrewTerminals|||TerminalBlock|3|Screw Terminal|3.50|female
+CONNECTOR|CON0011|USB Type-A THT|30|5|0.450000|Connectors/USB|||THT|4|USB Type-A Receptacle|2.50|female
+CONNECTOR|CON0012|USB Type-B THT|30|5|0.450000|Connectors/USB|||THT|4|USB Type-B Receptacle|2.50|female
+CONNECTOR|CON0013|Micro-USB SMD|50|10|0.300000|Connectors/USB|||SMD|5|Micro-B Receptacle|0.65|female
+CONNECTOR|CON0014|Mini-USB SMD|30|5|0.350000|Connectors/USB|||SMD|5|Mini-B Receptacle|0.80|female
+CONNECTOR|CON0015|USB-C 16-pin SMD|40|10|0.550000|Connectors/USB|||SMD|16|USB-C Receptacle|0.50|female
+CONNECTOR|CON0016|SMA Female Edge|20|5|1.200000|Connectors/RF|||EdgeMount|5|SMA Edge Mount|0.00|female
+CONNECTOR|CON0017|SMA Male Cable|20|5|1.500000|Connectors/RF|||Cable|1|SMA Cable Mount|0.00|male
+CONNECTOR|CON0018|U.FL SMD|50|10|0.450000|Connectors/RF|||SMD|3|U.FL Antenna Conn|0.00|female
+CONNECTOR|CON0019|BNC Female THT|20|5|1.800000|Connectors/RF|||THT|2|BNC PCB Mount|0.00|female
+CONNECTOR|CON0020|N-Type Panel Mount|10|2|3.500000|Connectors/RF|||Panel|1|N-Type Female|0.00|female
+CONNECTOR|CON0021|JST-XH 2-Pin THT|50|10|0.150000|Connectors/JST|||THT|2|JST-XH Male|2.50|male
+CONNECTOR|CON0022|JST-XH 3-Pin THT|50|10|0.180000|Connectors/JST|||THT|3|JST-XH Male|2.50|male
+CONNECTOR|CON0023|JST-XH 4-Pin THT|40|10|0.220000|Connectors/JST|||THT|4|JST-XH Male|2.50|male
+CONNECTOR|CON0024|JST-PH 2-Pin SMD|50|10|0.200000|Connectors/JST|||SMD|2|JST-PH Male|2.00|male
+CONNECTOR|CON0025|JST-PH 3-Pin SMD|50|10|0.250000|Connectors/JST|||SMD|3|JST-PH Male|2.00|male
+CONNECTOR|CON0026|Molex KK 2-Pin|50|10|0.200000|Connectors/Molex|||THT|2|KK 254 Male|2.54|male
+CONNECTOR|CON0027|Molex KK 3-Pin|40|10|0.250000|Connectors/Molex|||THT|3|KK 254 Male|2.54|male
+CONNECTOR|CON0028|Molex KK 4-Pin|40|10|0.300000|Connectors/Molex|||THT|4|KK 254 Male|2.54|male
+CONNECTOR|CON0029|Micro-Fit 2x2 THT|30|5|0.650000|Connectors/Molex|||THT|4|Micro-Fit 3.0|3.00|male
+CONNECTOR|CON0030|Mini-Fit 2x3 THT|20|5|0.850000|Connectors/Molex|||THT|6|Mini-Fit Jr|4.20|male
+ARBITRARY|ARB0026|M3 Standoff 6mm|100|20|0.150000|Mechanical/Standoffs|||Hardware|0|Brass Hex M-F|length=6mm|thread=M3
+ARBITRARY|ARB0027|M3 Standoff 10mm|100|20|0.180000|Mechanical/Standoffs|||Hardware|0|Brass Hex F-F|length=10mm|thread=M3
+ARBITRARY|ARB0028|M2.5 Standoff 12mm|100|20|0.150000|Mechanical/Standoffs|||Hardware|0|Brass Hex M-F|length=12mm|thread=M2.5
+ARBITRARY|ARB0029|M3 Standoff 20mm|50|10|0.250000|Mechanical/Standoffs|||Hardware|0|Brass Hex F-F|length=20mm|thread=M3
+ARBITRARY|ARB0030|Nylon Standoff 10mm|100|20|0.100000|Mechanical/Standoffs|||Hardware|0|Nylon Hex M-F|length=10mm|thread=M3
+ARBITRARY|ARB0031|M3 Screw 6mm|500|100|0.020000|Mechanical/Hardware|||Hardware|0|Philips Pan Head|length=6mm|thread=M3
+ARBITRARY|ARB0032|M3 Nut|500|100|0.015000|Mechanical/Hardware|||Hardware|0|Hex Nut|thread=M3|type=Hex
+ARBITRARY|ARB0033|M3 Washer|500|100|0.010000|Mechanical/Hardware|||Hardware|0|Flat Washer|thread=M3|type=Flat
+ARBITRARY|ARB0034|M2.5 Screw 5mm|200|50|0.020000|Mechanical/Hardware|||Hardware|0|Philips Pan Head|length=5mm|thread=M2.5
+ARBITRARY|ARB0035|M2 Screw 4mm|200|50|0.020000|Mechanical/Hardware|||Hardware|0|Philips Pan Head|length=4mm|thread=M2
+ARBITRARY|ARB0036|FR4 Board 5x7 SS|20|5|1.500000|Mechanical/PCB|||Board|0|Single Sided Copper|dim=50x70mm|thick=1.6mm
+ARBITRARY|ARB0037|FR4 Board 7x10 DS|20|5|2.500000|Mechanical/PCB|||Board|0|Double Sided Copper|dim=70x100mm|thick=1.6mm
+ARBITRARY|ARB0038|Perfboard 5x7|30|10|0.800000|Mechanical/PCB|||Board|0|Prototyping Board|dim=50x70mm|pitch=2.54mm
+ARBITRARY|ARB0039|Perfboard 7x9|30|10|1.200000|Mechanical/PCB|||Board|0|Prototyping Board|dim=70x90mm|pitch=2.54mm
+ARBITRARY|ARB0040|FR4 Board 10x15 DS|10|2|4.500000|Mechanical/PCB|||Board|0|Double Sided Copper|dim=100x150mm|thick=1.6mm
+ARBITRARY|ARB0041|Heat Shrink 2mm|50|10|0.100000|Other|||Tubing|0|Black Heat Shrink|dia=2mm|len=1m
+ARBITRARY|ARB0042|Heatsink TO-220|40|10|0.450000|Other|||Hardware|0|Aluminum Heatsink|pkg=TO-220|Rth=20C/W
+ARBITRARY|ARB0043|Thermal Paste 1g|20|5|2.500000|Other|||Tube|0|Silicone Thermal Cmpd|weight=1g|cond=1.5W/mK
+ARBITRARY|ARB0044|Kapton Tape 10mm|10|2|4.000000|Other|||Roll|0|Polyimide Tape|width=10mm|len=33m
+ARBITRARY|ARB0045|Zip Tie 100mm|200|50|0.050000|Other|||Hardware|0|Nylon Cable Tie|len=100mm|color=Black
+RESISTOR|RES0011|12R SMD 0402|100|20|0.005|Passives/Resistors/SMD|||0402|2|12.0|1.0|0.063|0402
+RESISTOR|RES0012|15R SMD 0402|100|20|0.005|Passives/Resistors/SMD|||0402|2|15.0|1.0|0.063|0402
+RESISTOR|RES0013|22R SMD 0402|100|20|0.005|Passives/Resistors/SMD|||0402|2|22.0|1.0|0.063|0402
+RESISTOR|RES0014|33R SMD 0402|100|20|0.005|Passives/Resistors/SMD|||0402|2|33.0|1.0|0.063|0402
+RESISTOR|RES0015|47R SMD 0402|100|20|0.005|Passives/Resistors/SMD|||0402|2|47.0|1.0|0.063|0402
+RESISTOR|RES0016|68R SMD 0402|100|20|0.005|Passives/Resistors/SMD|||0402|2|68.0|1.0|0.063|0402
+RESISTOR|RES0017|120R SMD 0603|100|20|0.010|Passives/Resistors/SMD|||0603|2|120.0|1.0|0.100|0603
+RESISTOR|RES0018|150R SMD 0603|100|20|0.010|Passives/Resistors/SMD|||0603|2|150.0|1.0|0.100|0603
+RESISTOR|RES0019|220R SMD 0603|100|20|0.010|Passives/Resistors/SMD|||0603|2|220.0|1.0|0.100|0603
+RESISTOR|RES0020|330R SMD 0603|100|20|0.010|Passives/Resistors/SMD|||0603|2|330.0|1.0|0.100|0603
+RESISTOR|RES0021|470R SMD 0603|100|20|0.010|Passives/Resistors/SMD|||0603|2|470.0|1.0|0.100|0603
+RESISTOR|RES0022|680R SMD 0603|100|20|0.010|Passives/Resistors/SMD|||0603|2|680.0|1.0|0.100|0603
+RESISTOR|RES0023|1.2k SMD 0805|500|50|0.015|Passives/Resistors/SMD|||0805|2|1200.0|1.0|0.125|0805
+RESISTOR|RES0024|1.5k SMD 0805|500|50|0.015|Passives/Resistors/SMD|||0805|2|1500.0|1.0|0.125|0805
+RESISTOR|RES0025|2.2k SMD 0805|500|50|0.015|Passives/Resistors/SMD|||0805|2|2200.0|1.0|0.125|0805
+RESISTOR|RES0026|3.3k SMD 0805|500|50|0.015|Passives/Resistors/SMD|||0805|2|3300.0|1.0|0.125|0805
+RESISTOR|RES0027|4.7k SMD 0805|500|50|0.015|Passives/Resistors/SMD|||0805|2|4700.0|1.0|0.125|0805
+RESISTOR|RES0028|6.8k SMD 0805|500|50|0.015|Passives/Resistors/SMD|||0805|2|6800.0|1.0|0.125|0805
+RESISTOR|RES0029|12k SMD 1206|500|50|0.020|Passives/Resistors/SMD|||1206|2|12000.0|1.0|0.250|1206
+RESISTOR|RES0030|15k SMD 1206|500|50|0.020|Passives/Resistors/SMD|||1206|2|15000.0|1.0|0.250|1206
+RESISTOR|RES0031|22k SMD 1206|500|50|0.020|Passives/Resistors/SMD|||1206|2|22000.0|1.0|0.250|1206
+RESISTOR|RES0032|33k SMD 1206|500|50|0.020|Passives/Resistors/SMD|||1206|2|33000.0|1.0|0.250|1206
+RESISTOR|RES0033|47k SMD 1206|500|50|0.020|Passives/Resistors/SMD|||1206|2|47000.0|1.0|0.250|1206
+RESISTOR|RES0034|68k SMD 1206|500|50|0.020|Passives/Resistors/SMD|||1206|2|68000.0|1.0|0.250|1206
+RESISTOR|RES0035|120k SMD 1210|200|20|0.030|Passives/Resistors/SMD|||1210|2|120000.0|1.0|0.500|1210
+RESISTOR|RES0036|150k SMD 1210|200|20|0.030|Passives/Resistors/SMD|||1210|2|150000.0|1.0|0.500|1210
+RESISTOR|RES0037|220k SMD 1210|200|20|0.030|Passives/Resistors/SMD|||1210|2|220000.0|1.0|0.500|1210
+RESISTOR|RES0038|330k SMD 1210|200|20|0.030|Passives/Resistors/SMD|||1210|2|330000.0|1.0|0.500|1210
+RESISTOR|RES0039|470k SMD 1210|200|20|0.030|Passives/Resistors/SMD|||1210|2|470000.0|1.0|0.500|1210
+RESISTOR|RES0040|680k SMD 1210|200|20|0.030|Passives/Resistors/SMD|||1210|2|680000.0|1.0|0.500|1210
+RESISTOR|RES0041|1M SMD 1210|200|20|0.030|Passives/Resistors/SMD|||1210|2|1000000.0|1.0|0.500|1210
+RESISTOR|RES0042|22R THT 1/4W|100|20|0.020|Passives/Resistors/THT|||Axial|2|22.0|1.0|0.250|Axial
+RESISTOR|RES0043|47R THT 1/4W|100|20|0.020|Passives/Resistors/THT|||Axial|2|47.0|1.0|0.250|Axial
+RESISTOR|RES0044|68R THT 1/4W|100|20|0.020|Passives/Resistors/THT|||Axial|2|68.0|1.0|0.250|Axial
+RESISTOR|RES0045|220R THT 1/4W|200|20|0.020|Passives/Resistors/THT|||Axial|2|220.0|1.0|0.250|Axial
+RESISTOR|RES0046|330R THT 1/4W|200|20|0.020|Passives/Resistors/THT|||Axial|2|330.0|1.0|0.250|Axial
+RESISTOR|RES0047|470R THT 1/4W|200|20|0.020|Passives/Resistors/THT|||Axial|2|470.0|1.0|0.250|Axial
+RESISTOR|RES0048|2.2k THT 1/4W|300|50|0.020|Passives/Resistors/THT|||Axial|2|2200.0|1.0|0.250|Axial
+RESISTOR|RES0049|3.3k THT 1/4W|300|50|0.020|Passives/Resistors/THT|||Axial|2|3300.0|1.0|0.250|Axial
+RESISTOR|RES0050|4.7k THT 1/4W|300|50|0.020|Passives/Resistors/THT|||Axial|2|4700.0|1.0|0.250|Axial
+RESISTOR|RES0051|22k THT 1/4W|300|50|0.020|Passives/Resistors/THT|||Axial|2|22000.0|1.0|0.250|Axial
+RESISTOR|RES0052|33k THT 1/4W|300|50|0.020|Passives/Resistors/THT|||Axial|2|33000.0|1.0|0.250|Axial
+RESISTOR|RES0053|47k THT 1/4W|300|50|0.020|Passives/Resistors/THT|||Axial|2|47000.0|1.0|0.250|Axial
+RESISTOR|RES0054|220k THT 1/4W|100|20|0.020|Passives/Resistors/THT|||Axial|2|220000.0|1.0|0.250|Axial
+RESISTOR|RES0055|330k THT 1/4W|100|20|0.020|Passives/Resistors/THT|||Axial|2|330000.0|1.0|0.250|Axial
+RESISTOR|RES0056|470k THT 1/4W|100|20|0.020|Passives/Resistors/THT|||Axial|2|470000.0|1.0|0.250|Axial
+RESISTOR|RES0057|1M THT 1/4W|100|20|0.020|Passives/Resistors/THT|||Axial|2|1000000.0|1.0|0.250|Axial
+RESISTOR|RES0058|1.5M THT 1/4W|100|20|0.020|Passives/Resistors/THT|||Axial|2|1500000.0|1.0|0.250|Axial
+RESISTOR|RES0059|2.2M THT 1/4W|100|20|0.020|Passives/Resistors/THT|||Axial|2|2200000.0|1.0|0.250|Axial
+RESISTOR|RES0060|10M THT 1/4W|100|20|0.020|Passives/Resistors/THT|||Axial|2|10000000.0|1.0|0.250|Axial
+CAPACITOR|CAP0021|15pF Ceramic|100|20|0.020|Passives/Capacitors/Ceramic|||Disc|2|0.000000000015|ceramic|5.0|50.0|Disc
+CAPACITOR|CAP0022|22pF Ceramic|100|20|0.020|Passives/Capacitors/Ceramic|||Disc|2|0.000000000022|ceramic|5.0|50.0|Disc
+CAPACITOR|CAP0023|33pF Ceramic|100|20|0.020|Passives/Capacitors/Ceramic|||Disc|2|0.000000000033|ceramic|5.0|50.0|Disc
+CAPACITOR|CAP0024|47pF Ceramic|100|20|0.020|Passives/Capacitors/Ceramic|||Disc|2|0.000000000047|ceramic|5.0|50.0|Disc
+CAPACITOR|CAP0025|68pF Ceramic|100|20|0.020|Passives/Capacitors/Ceramic|||Disc|2|0.000000000068|ceramic|5.0|50.0|Disc
+CAPACITOR|CAP0026|150pF Ceramic|100|20|0.020|Passives/Capacitors/Ceramic|||Disc|2|0.000000000150|ceramic|5.0|50.0|Disc
+CAPACITOR|CAP0027|220pF Ceramic|100|20|0.020|Passives/Capacitors/Ceramic|||Disc|2|0.000000000220|ceramic|5.0|50.0|Disc
+CAPACITOR|CAP0028|330pF Ceramic|100|20|0.020|Passives/Capacitors/Ceramic|||Disc|2|0.000000000330|ceramic|5.0|50.0|Disc
+CAPACITOR|CAP0029|470pF Ceramic|100|20|0.020|Passives/Capacitors/Ceramic|||Disc|2|0.000000000470|ceramic|5.0|50.0|Disc
+CAPACITOR|CAP0030|680pF Ceramic|100|20|0.020|Passives/Capacitors/Ceramic|||Disc|2|0.000000000680|ceramic|5.0|50.0|Disc
+CAPACITOR|CAP0031|15nF Film|100|20|0.080|Passives/Capacitors/Film|||Radial|2|0.000000015|film|10.0|63.0|Radial
+CAPACITOR|CAP0032|22nF Film|100|20|0.080|Passives/Capacitors/Film|||Radial|2|0.000000022|film|10.0|63.0|Radial
+CAPACITOR|CAP0033|33nF Film|100|20|0.080|Passives/Capacitors/Film|||Radial|2|0.000000033|film|10.0|63.0|Radial
+CAPACITOR|CAP0034|68nF Film|100|20|0.080|Passives/Capacitors/Film|||Radial|2|0.000000068|film|10.0|63.0|Radial
+CAPACITOR|CAP0035|220nF Film|100|20|0.080|Passives/Capacitors/Film|||Radial|2|0.000000220|film|10.0|63.0|Radial
+CAPACITOR|CAP0036|2.2uF Electro|100|20|0.050|Passives/Capacitors/Electrolytic|||Radial|2|0.0000022|electrolytic|20.0|50.0|Radial
+CAPACITOR|CAP0037|4.7uF Electro|100|20|0.050|Passives/Capacitors/Electrolytic|||Radial|2|0.0000047|electrolytic|20.0|50.0|Radial
+CAPACITOR|CAP0038|22uF Electro|100|20|0.060|Passives/Capacitors/Electrolytic|||Radial|2|0.000022|electrolytic|20.0|25.0|Radial
+CAPACITOR|CAP0039|33uF Electro|100|20|0.060|Passives/Capacitors/Electrolytic|||Radial|2|0.000033|electrolytic|20.0|25.0|Radial
+CAPACITOR|CAP0040|68uF Electro|100|20|0.080|Passives/Capacitors/Electrolytic|||Radial|2|0.000068|electrolytic|20.0|25.0|Radial
+CAPACITOR|CAP0041|220uF Electro|50|10|0.120|Passives/Capacitors/Electrolytic|||Radial|2|0.000220|electrolytic|20.0|16.0|Radial
+CAPACITOR|CAP0042|330uF Electro|50|10|0.120|Passives/Capacitors/Electrolytic|||Radial|2|0.000330|electrolytic|20.0|16.0|Radial
+CAPACITOR|CAP0043|1000uF Electro|50|10|0.200|Passives/Capacitors/Electrolytic|||Radial|2|0.001000|electrolytic|20.0|16.0|Radial
+CAPACITOR|CAP0044|2200uF Electro|30|5|0.350|Passives/Capacitors/Electrolytic|||Radial|2|0.002200|electrolytic|20.0|16.0|Radial
+CAPACITOR|CAP0045|4700uF Electro|20|5|0.600|Passives/Capacitors/Electrolytic|||Radial|2|0.004700|electrolytic|20.0|16.0|Radial
+CAPACITOR|CAP0046|100nF SMD 0805|500|50|0.020|Passives/Capacitors/Ceramic|||0805|2|0.000000100|ceramic|10.0|50.0|0805
+CAPACITOR|CAP0047|1uF SMD 0805|200|20|0.030|Passives/Capacitors/Ceramic|||0805|2|0.000001|ceramic|10.0|25.0|0805
+CAPACITOR|CAP0048|2.2uF SMD 0805|100|20|0.040|Passives/Capacitors/Ceramic|||0805|2|0.0000022|ceramic|10.0|25.0|0805
+CAPACITOR|CAP0049|4.7uF SMD 0805|100|20|0.050|Passives/Capacitors/Ceramic|||0805|2|0.0000047|ceramic|10.0|16.0|0805
+CAPACITOR|CAP0050|10uF SMD 0805|100|20|0.080|Passives/Capacitors/Ceramic|||0805|2|0.000010|ceramic|10.0|10.0|0805
+CAPACITOR|CAP0051|3.3uF Tantalum|50|10|0.280|Passives/Capacitors/Tantalum|||Case-A|2|0.0000033|tantalum|10.0|16.0|Case-A
+CAPACITOR|CAP0052|6.8uF Tantalum|50|10|0.300|Passives/Capacitors/Tantalum|||Case-B|2|0.0000068|tantalum|10.0|16.0|Case-B
+CAPACITOR|CAP0053|15uF Tantalum|50|10|0.400|Passives/Capacitors/Tantalum|||Case-B|2|0.000015|tantalum|10.0|16.0|Case-B
+CAPACITOR|CAP0054|33uF Tantalum|30|5|0.500|Passives/Capacitors/Tantalum|||Case-C|2|0.000033|tantalum|10.0|16.0|Case-C
+CAPACITOR|CAP0055|47uF Tantalum|30|5|0.600|Passives/Capacitors/Tantalum|||Case-C|2|0.000047|tantalum|10.0|16.0|Case-C
+CAPACITOR|CAP0056|68uF Tantalum|30|5|0.700|Passives/Capacitors/Tantalum|||Case-D|2|0.000068|tantalum|10.0|10.0|Case-D
+CAPACITOR|CAP0057|100uF Tantalum|20|5|0.900|Passives/Capacitors/Tantalum|||Case-D|2|0.000100|tantalum|10.0|10.0|Case-D
+CAPACITOR|CAP0058|220uF Tantalum|20|5|1.200|Passives/Capacitors/Tantalum|||Case-E|2|0.000220|tantalum|10.0|10.0|Case-E
+CAPACITOR|CAP0059|330uF Tantalum|20|5|1.500|Passives/Capacitors/Tantalum|||Case-E|2|0.000330|tantalum|10.0|6.3|Case-E
+CAPACITOR|CAP0060|470uF Tantalum|10|2|2.000|Passives/Capacitors/Tantalum|||Case-E|2|0.000470|tantalum|10.0|6.3|Case-E
+INDUCTOR|IND0011|1.5uH SMD|50|10|0.150|Passives/Inductors/SMD|||0805|2|0.0000015|1.20|0.10|0805
+INDUCTOR|IND0012|3.3uH SMD|50|10|0.150|Passives/Inductors/SMD|||1206|2|0.0000033|1.00|0.15|1206
+INDUCTOR|IND0013|6.8uH SMD|50|10|0.200|Passives/Inductors/SMD|||1210|2|0.0000068|0.80|0.20|1210
+INDUCTOR|IND0014|15uH SMD|100|20|0.250|Passives/Inductors/SMD|||1210|2|0.000015|0.60|0.30|1210
+INDUCTOR|IND0015|33uH SMD|50|10|0.280|Passives/Inductors/SMD|||1210|2|0.000033|0.50|0.50|1210
+INDUCTOR|IND0016|47uH SMD|50|10|0.300|Passives/Inductors/SMD|||1210|2|0.000047|0.40|0.60|1210
+INDUCTOR|IND0017|68uH SMD|50|10|0.350|Passives/Inductors/SMD|||1210|2|0.000068|0.35|0.80|1210
+INDUCTOR|IND0018|100uH SMD|50|10|0.400|Passives/Inductors/SMD|||1210|2|0.000100|0.25|1.00|1210
+INDUCTOR|IND0019|220uH SMD|30|5|0.450|Passives/Inductors/SMD|||1210|2|0.000220|0.15|1.50|1210
+INDUCTOR|IND0020|330uH SMD|30|5|0.500|Passives/Inductors/SMD|||1210|2|0.000330|0.10|2.00|1210
+INDUCTOR|IND0021|15uH THT|50|10|0.450|Passives/Inductors/THT|||Radial|2|0.000015|1.80|0.12|Radial
+INDUCTOR|IND0022|22uH THT|50|10|0.450|Passives/Inductors/THT|||Radial|2|0.000022|1.60|0.15|Radial
+INDUCTOR|IND0023|33uH THT|50|10|0.500|Passives/Inductors/THT|||Radial|2|0.000033|1.40|0.20|Radial
+INDUCTOR|IND0024|68uH THT|50|10|0.550|Passives/Inductors/THT|||Radial|2|0.000068|1.20|0.30|Radial
+INDUCTOR|IND0025|150uH THT|50|10|0.650|Passives/Inductors/THT|||Radial|2|0.000150|0.90|0.60|Radial
+INDUCTOR|IND0026|220uH THT|50|10|0.700|Passives/Inductors/THT|||Radial|2|0.000220|0.70|0.80|Radial
+INDUCTOR|IND0027|330uH THT|50|10|0.750|Passives/Inductors/THT|||Radial|2|0.000330|0.60|1.00|Radial
+INDUCTOR|IND0028|680uH THT|30|5|0.900|Passives/Inductors/THT|||Radial|2|0.000680|0.40|1.50|Radial
+INDUCTOR|IND0029|2mH THT|30|5|1.200|Passives/Inductors/THT|||Radial|2|0.002000|0.20|3.00|Radial
+INDUCTOR|IND0030|5mH THT|30|5|1.500|Passives/Inductors/THT|||Radial|2|0.005000|0.10|5.00|Radial
+INDUCTOR|IND0031|4.7uH Power|30|5|0.800|Passives/Inductors/Power|||SMD_Power|2|0.0000047|4.50|0.02|SMD_Power
+INDUCTOR|IND0032|10uH Power|30|5|0.850|Passives/Inductors/Power|||SMD_Power|2|0.000010|3.50|0.03|SMD_Power
+INDUCTOR|IND0033|22uH Power|30|5|0.900|Passives/Inductors/Power|||SMD_Power|2|0.000022|2.50|0.05|SMD_Power
+INDUCTOR|IND0034|33uH Power|30|5|0.950|Passives/Inductors/Power|||SMD_Power|2|0.000033|2.00|0.07|SMD_Power
+INDUCTOR|IND0035|47uH Power|30|5|1.000|Passives/Inductors/Power|||SMD_Power|2|0.000047|1.80|0.10|SMD_Power
+INDUCTOR|IND0036|100uH Power|30|5|1.200|Passives/Inductors/Power|||SMD_Power|2|0.000100|1.20|0.20|SMD_Power
+INDUCTOR|IND0037|150uH Power|20|5|1.400|Passives/Inductors/Power|||SMD_Power|2|0.000150|0.90|0.30|SMD_Power
+INDUCTOR|IND0038|220uH Power|20|5|1.500|Passives/Inductors/Power|||SMD_Power|2|0.000220|0.80|0.45|SMD_Power
+INDUCTOR|IND0039|330uH Power|20|5|1.800|Passives/Inductors/Power|||SMD_Power|2|0.000330|0.60|0.60|SMD_Power
+INDUCTOR|IND0040|470uH Power|20|5|2.000|Passives/Inductors/Power|||SMD_Power|2|0.000470|0.50|0.85|SMD_Power
+MOSFET|MOS0011|IRF520N|50|10|0.500|Semiconductors/Transistors/MOSFET|||TO-220|3|N-CH|100.0|0.20|15.0|9.7|TO-220|
+MOSFET|MOS0012|IRF540N|50|10|0.600|Semiconductors/Transistors/MOSFET|||TO-220|3|N-CH|100.0|0.044|71.0|33.0|TO-220|
+MOSFET|MOS0013|IRF840|40|10|0.800|Semiconductors/Transistors/MOSFET|||TO-220|3|N-CH|500.0|0.85|38.0|8.0|TO-220|
+MOSFET|MOS0014|STP55NF06L|40|10|0.750|Semiconductors/Transistors/MOSFET|||TO-220|3|N-CH|60.0|0.018|35.0|55.0|TO-220|
+MOSFET|MOS0015|IRL540N|40|10|0.850|Semiconductors/Transistors/MOSFET|||TO-220|3|N-CH|100.0|0.044|74.0|36.0|TO-220|
+MOSFET|MOS0016|2N7000|200|50|0.050|Semiconductors/Transistors/MOSFET|||TO-92|3|N-CH|60.0|5.0|0.1|0.2|TO-92|
+MOSFET|MOS0017|BS170|200|50|0.050|Semiconductors/Transistors/MOSFET|||TO-92|3|N-CH|60.0|5.0|0.1|0.5|TO-92|
+MOSFET|MOS0018|IRFD110|100|20|0.450|Semiconductors/Transistors/MOSFET|||DIP-4|4|N-CH|100.0|0.54|8.3|1.0|DIP-4|
+MOSFET|MOS0019|FDV301N|100|20|0.120|Semiconductors/Transistors/MOSFET|||SOT-23|3|N-CH|25.0|4.0|0.5|0.22|SOT-23|
+MOSFET|MOS0020|SI2302|100|20|0.080|Semiconductors/Transistors/MOSFET|||SOT-23|3|N-CH|20.0|0.085|6.0|2.8|SOT-23|
+MOSFET|MOS0021|IRF9Z24N|50|10|0.650|Semiconductors/Transistors/MOSFET|||TO-220|3|P-CH|55.0|0.175|19.0|12.0|TO-220|
+MOSFET|MOS0022|IRF9530N|40|10|0.800|Semiconductors/Transistors/MOSFET|||TO-220|3|P-CH|100.0|0.2|38.0|14.0|TO-220|
+MOSFET|MOS0023|FQP47P06|30|5|1.100|Semiconductors/Transistors/MOSFET|||TO-220|3|P-CH|60.0|0.026|84.0|47.0|TO-220|
+MOSFET|MOS0024|SI2301|100|20|0.080|Semiconductors/Transistors/MOSFET|||SOT-23|3|P-CH|20.0|0.130|5.0|2.3|SOT-23|
+MOSFET|MOS0025|SI2305|100|20|0.100|Semiconductors/Transistors/MOSFET|||SOT-23|3|P-CH|8.0|0.065|8.0|4.1|SOT-23|
+MOSFET|MOS0026|BSS84P|100|20|0.060|Semiconductors/Transistors/MOSFET|||SOT-23|3|P-CH|50.0|8.0|0.2|0.17|SOT-23|
+MOSFET|MOS0027|TP0610K|100|20|0.150|Semiconductors/Transistors/MOSFET|||SOT-23|3|P-CH|60.0|10.0|0.5|0.12|SOT-23|
+MOSFET|MOS0028|NDP6020P|40|10|1.200|Semiconductors/Transistors/MOSFET|||TO-220|3|P-CH|20.0|0.05|30.0|24.0|TO-220|
+MOSFET|MOS0029|IRLML5203|100|20|0.180|Semiconductors/Transistors/MOSFET|||SOT-23|3|P-CH|30.0|0.098|10.0|3.0|SOT-23|
+MOSFET|MOS0030|ZXMP6A17E6|50|10|0.450|Semiconductors/Transistors/MOSFET|||SOT-23-6|6|P-CH|60.0|0.125|12.0|3.0|SOT-23-6|
+BJT|BJT0011|2N5551|200|50|0.050|Semiconductors/Transistors/BJT|||TO-92|3|NPN|80.0|160.0|0.6|TO-92|
+BJT|BJT0012|2N5401|200|50|0.050|Semiconductors/Transistors/BJT|||TO-92|3|PNP|80.0|150.0|0.6|TO-92|
+BJT|BJT0013|BC337|200|50|0.050|Semiconductors/Transistors/BJT|||TO-92|3|NPN|100.0|45.0|0.8|TO-92|
+BJT|BJT0014|BC328|200|50|0.050|Semiconductors/Transistors/BJT|||TO-92|3|PNP|100.0|25.0|0.8|TO-92|
+BJT|BJT0015|BC546|200|50|0.050|Semiconductors/Transistors/BJT|||TO-92|3|NPN|110.0|65.0|0.1|TO-92|
+BJT|BJT0016|BC556|200|50|0.050|Semiconductors/Transistors/BJT|||TO-92|3|PNP|110.0|65.0|0.1|TO-92|
+BJT|BJT0017|MPSA42|100|20|0.080|Semiconductors/Transistors/BJT|||TO-92|3|NPN|40.0|300.0|0.5|TO-92|
+BJT|BJT0018|MPSA92|100|20|0.080|Semiconductors/Transistors/BJT|||TO-92|3|PNP|40.0|300.0|0.5|TO-92|
+BJT|BJT0019|TIP31C|50|10|0.450|Semiconductors/Transistors/BJT|||TO-220|3|NPN|25.0|100.0|3.0|TO-220|
+BJT|BJT0020|TIP32C|50|10|0.450|Semiconductors/Transistors/BJT|||TO-220|3|PNP|25.0|100.0|3.0|TO-220|
+BJT|BJT0021|TIP41C|50|10|0.500|Semiconductors/Transistors/BJT|||TO-220|3|NPN|15.0|100.0|6.0|TO-220|
+BJT|BJT0022|TIP42C|50|10|0.500|Semiconductors/Transistors/BJT|||TO-220|3|PNP|15.0|100.0|6.0|TO-220|
+BJT|BJT0023|BD135|50|10|0.250|Semiconductors/Transistors/BJT|||TO-126|3|NPN|40.0|45.0|1.5|TO-126|
+BJT|BJT0024|BD136|50|10|0.250|Semiconductors/Transistors/BJT|||TO-126|3|PNP|40.0|45.0|1.5|TO-126|
+BJT|BJT0025|2N3055|20|5|1.500|Semiconductors/Transistors/BJT|||TO-3|2|NPN|20.0|60.0|15.0|TO-3|
+BJT|BJT0026|MJ2955|20|5|1.500|Semiconductors/Transistors/BJT|||TO-3|2|PNP|20.0|60.0|15.0|TO-3|
+BJT|BJT0027|BC847|500|50|0.020|Semiconductors/Transistors/BJT|||SOT-23|3|NPN|200.0|45.0|0.1|SOT-23|
+BJT|BJT0028|BC857|500|50|0.020|Semiconductors/Transistors/BJT|||SOT-23|3|PNP|200.0|45.0|0.1|SOT-23|
+BJT|BJT0029|MMBT3904|500|50|0.020|Semiconductors/Transistors/BJT|||SOT-23|3|NPN|100.0|40.0|0.2|SOT-23|
+BJT|BJT0030|MMBT3906|500|50|0.020|Semiconductors/Transistors/BJT|||SOT-23|3|PNP|100.0|40.0|0.2|SOT-23|
+DIODE|DIO0026|1N4148|500|100|0.010|Semiconductors/Diodes|||DO-35|2|1.0|100.0|signal|0.2|DO-35|
+DIODE|DIO0027|1N914|500|100|0.010|Semiconductors/Diodes|||DO-35|2|1.0|100.0|signal|0.2|DO-35|
+DIODE|DIO0028|BAT54|200|50|0.050|Semiconductors/Diodes|||SOT-23|3|0.8|30.0|schottky|0.2|SOT-23|
+DIODE|DIO0029|BAT54S|200|50|0.050|Semiconductors/Diodes|||SOT-23|3|0.8|30.0|schottky|0.2|SOT-23|
+DIODE|DIO0030|BAT54C|200|50|0.050|Semiconductors/Diodes|||SOT-23|3|0.8|30.0|schottky|0.2|SOT-23|
+DIODE|DIO0031|BAT54A|200|50|0.050|Semiconductors/Diodes|||SOT-23|3|0.8|30.0|schottky|0.2|SOT-23|
+DIODE|DIO0032|1N5818|200|50|0.060|Semiconductors/Diodes|||DO-41|2|0.55|30.0|schottky|1.0|DO-41|
+DIODE|DIO0033|SR160|200|50|0.080|Semiconductors/Diodes|||DO-41|2|0.7|60.0|schottky|1.0|DO-41|
+DIODE|DIO0034|SR360|100|20|0.150|Semiconductors/Diodes|||DO-201AD|2|0.7|60.0|schottky|3.0|DO-201AD|
+DIODE|DIO0035|MBR1045|50|10|0.450|Semiconductors/Diodes|||TO-220|3|0.57|45.0|schottky|10.0|TO-220|
+DIODE|DIO0036|MBR20100CT|30|5|0.850|Semiconductors/Diodes|||TO-220|3|0.85|100.0|schottky|20.0|TO-220|
+DIODE|DIO0037|BZX84C3V3|200|50|0.040|Semiconductors/Diodes|||SOT-23|3|3.3|3.3|zener|0.25|SOT-23|
+DIODE|DIO0038|BZX84C5V1|200|50|0.040|Semiconductors/Diodes|||SOT-23|3|5.1|5.1|zener|0.25|SOT-23|
+DIODE|DIO0039|BZX84C12V|200|50|0.040|Semiconductors/Diodes|||SOT-23|3|12.0|12.0|zener|0.25|SOT-23|
+DIODE|DIO0040|1N4733A|100|20|0.080|Semiconductors/Diodes|||DO-41|2|5.1|5.1|zener|1.0|DO-41|
+DIODE|DIO0041|1N4739A|100|20|0.080|Semiconductors/Diodes|||DO-41|2|9.1|9.1|zener|1.0|DO-41|
+DIODE|DIO0042|1N4746A|100|20|0.080|Semiconductors/Diodes|||DO-41|2|18.0|18.0|zener|1.0|DO-41|
+DIODE|DIO0043|1N4749A|100|20|0.080|Semiconductors/Diodes|||DO-41|2|24.0|24.0|zener|1.0|DO-41|
+DIODE|DIO0044|SMBJ5.0A|100|20|0.180|Semiconductors/Diodes|||SMB|2|6.4|5.0|tvs|600.0|SMB|
+DIODE|DIO0045|SMBJ12A|100|20|0.180|Semiconductors/Diodes|||SMB|2|13.3|12.0|tvs|600.0|SMB|
+DIODE|DIO0046|SMBJ24A|100|20|0.180|Semiconductors/Diodes|||SMB|2|26.7|24.0|tvs|600.0|SMB|
+DIODE|DIO0047|LED Red 3mm|200|50|0.030|Semiconductors/Diodes|||3mm|2|2.0|5.0|led|0.02|3mm|
+DIODE|DIO0048|LED Green 3mm|200|50|0.030|Semiconductors/Diodes|||3mm|2|2.2|5.0|led|0.02|3mm|
+DIODE|DIO0049|LED Blue 3mm|200|50|0.050|Semiconductors/Diodes|||3mm|2|3.2|5.0|led|0.02|3mm|
+DIODE|DIO0050|LED Red 0805|500|100|0.020|Semiconductors/Diodes|||0805|2|2.0|5.0|led|0.02|0805|
+DIODE|DIO0051|LED Green 0805|500|100|0.020|Semiconductors/Diodes|||0805|2|2.2|5.0|led|0.02|0805|
+DIODE|DIO0052|LED Blue 0805|500|100|0.030|Semiconductors/Diodes|||0805|2|3.2|5.0|led|0.02|0805|
+DIODE|DIO0053|WS2812B|100|20|0.150|Semiconductors/Diodes|||5050|4|5.0|5.0|led|0.06|5050|
+DIODE|DIO0054|IR LED 5mm|100|20|0.080|Semiconductors/Diodes|||5mm|2|1.5|5.0|led|0.05|5mm|
+DIODE|DIO0055|Photo Diode|100|20|0.100|Semiconductors/Diodes|||5mm|2|0.0|30.0|photodiode|0.0|5mm|
+IC|IC0051|SN74HC08N|50|10|0.250|Semiconductors/ICs/Logic|||DIP-14|14|Quad 2-In AND|2.0|6.0|0.02|DIP-14|
+IC|IC0052|SN74HC32N|50|10|0.250|Semiconductors/ICs/Logic|||DIP-14|14|Quad 2-In OR|2.0|6.0|0.02|DIP-14|
+IC|IC0053|SN74HC86N|50|10|0.250|Semiconductors/ICs/Logic|||DIP-14|14|Quad 2-In XOR|2.0|6.0|0.02|DIP-14|
+IC|IC0054|SN74HC74N|50|10|0.300|Semiconductors/ICs/Logic|||DIP-14|14|Dual D Flip-Flop|2.0|6.0|0.02|DIP-14|
+IC|IC0055|SN74HC138N|40|10|0.350|Semiconductors/ICs/Logic|||DIP-16|16|3-to-8 Decoder|2.0|6.0|0.02|DIP-16|
+IC|IC0056|CD4050BE|40|10|0.350|Semiconductors/ICs/Logic|||DIP-16|16|Hex Buffer|3.0|18.0|0.01|DIP-16|
+IC|IC0057|CD4066BE|40|10|0.350|Semiconductors/ICs/Logic|||DIP-14|14|Quad Bilateral Switch|3.0|18.0|0.01|DIP-14|
+IC|IC0058|NE555P|100|20|0.200|Semiconductors/ICs/Timers|||DIP-8|8|Precision Timer|4.5|16.0|0.2|DIP-8|
+IC|IC0059|LM386N-1|50|10|0.350|Semiconductors/ICs/Audio|||DIP-8|8|Audio Amp|4.0|12.0|0.5|DIP-8|
+IC|IC0060|TDA2030A|30|5|0.800|Semiconductors/ICs/Audio|||TO-220-5|5|18W Audio Amp|6.0|36.0|3.0|TO-220-5|
+IC|IC0061|LM317T|100|20|0.450|Semiconductors/ICs/Power|||TO-220|3|Adj Regulator|3.0|40.0|1.5|TO-220|
+IC|IC0062|LM337T|50|10|0.550|Semiconductors/ICs/Power|||TO-220|3|Adj Neg Regulator|-3.0|-40.0|1.5|TO-220|
+IC|IC0063|L7809CV|40|10|0.450|Semiconductors/ICs/Power|||TO-220|3|9V Regulator|11.0|35.0|1.5|TO-220|
+IC|IC0064|L7815CV|40|10|0.450|Semiconductors/ICs/Power|||TO-220|3|15V Regulator|17.0|35.0|1.5|TO-220|
+IC|IC0065|L7905CV|30|5|0.500|Semiconductors/ICs/Power|||TO-220|3|-5V Regulator|-7.0|-35.0|1.5|TO-220|
+IC|IC0066|L7912CV|30|5|0.500|Semiconductors/ICs/Power|||TO-220|3|-12V Regulator|-14.0|-35.0|1.5|TO-220|
+IC|IC0067|TL431A|100|20|0.150|Semiconductors/ICs/Power|||TO-92|3|Adj Shunt Reg|2.5|36.0|0.1|TO-92|
+IC|IC0068|LM35DZ|50|10|0.900|Semiconductors/ICs/Sensors|||TO-92|3|Temp Sensor|4.0|30.0|0.01|TO-92|
+IC|IC0069|DS18B20|40|10|1.200|Semiconductors/ICs/Sensors|||TO-92|3|1-Wire Temp Sensor|3.0|5.5|0.001|TO-92|
+IC|IC0070|DHT11|30|5|1.500|Semiconductors/ICs/Sensors|||Module|4|Temp/Humid Sensor|3.3|5.0|0.002|Module|
+IC|IC0071|BME280|20|5|3.500|Semiconductors/ICs/Sensors|||Module|6|Env Sensor|1.7|3.6|0.001|Module|
+IC|IC0072|MPU6050|30|5|2.500|Semiconductors/ICs/Sensors|||Module|8|6-Axis IMU|2.3|3.4|0.004|Module|
+IC|IC0073|ADS1115|20|5|3.800|Semiconductors/ICs/ADC|||Module|10|16-Bit ADC|2.0|5.5|0.001|Module|
+IC|IC0074|MCP3008|30|5|2.500|Semiconductors/ICs/ADC|||DIP-16|16|8-Ch 10-Bit ADC|2.7|5.5|0.001|DIP-16|
+IC|IC0075|MCP4725|30|5|2.200|Semiconductors/ICs/DAC|||Module|6|12-Bit DAC|2.7|5.5|0.001|Module|
+IC|IC0076|PCF8574P|40|10|0.850|Semiconductors/ICs/IOExpander|||DIP-16|16|I2C IO Expander|2.5|6.0|0.02|DIP-16|
+IC|IC0077|MCP23017|30|5|1.500|Semiconductors/ICs/IOExpander|||DIP-28|28|16-Bit I2C IO|1.8|5.5|0.02|DIP-28|
+IC|IC0078|ULN2003A|50|10|0.350|Semiconductors/ICs/Drivers|||DIP-16|16|Darlington Array|5.0|50.0|0.5|DIP-16|
+IC|IC0079|L293D|40|10|0.750|Semiconductors/ICs/Drivers|||DIP-16|16|Motor Driver|4.5|36.0|0.6|DIP-16|
+IC|IC0080|L298N|30|5|1.500|Semiconductors/ICs/Drivers|||Multiwatt15|15|Dual Motor Driver|4.5|46.0|2.0|Multiwatt15|
+IC|IC0081|A4988|30|5|2.000|Semiconductors/ICs/Drivers|||Module|16|Stepper Driver|8.0|35.0|2.0|Module|
+IC|IC0082|DRV8825|30|5|2.500|Semiconductors/ICs/Drivers|||Module|16|Stepper Driver|8.2|45.0|2.5|Module|
+IC|IC0083|MAX7219CNG|40|10|1.100|Semiconductors/ICs/Drivers|||DIP-24|24|LED Display Driver|4.0|5.5|0.3|DIP-24|
+IC|IC0084|TM1637|50|10|0.450|Semiconductors/ICs/Drivers|||DIP-20|20|LED Driver|3.3|5.0|0.2|DIP-20|
+IC|IC0085|ATTINY85-20SU|40|10|1.800|Semiconductors/ICs/Microcontrollers|||SOIC-8|8|8-Bit AVR MCU|2.7|5.5|0.2|SOIC-8|
+IC|IC0086|ATMEGA328P-AU|40|10|2.500|Semiconductors/ICs/Microcontrollers|||TQFP-32|32|8-Bit AVR MCU|1.8|5.5|0.2|TQFP-32|
+IC|IC0087|ESP8266-12E|30|5|2.200|Semiconductors/ICs/Microcontrollers|||Module|22|WiFi SoC|3.0|3.6|0.3|Module|
+IC|IC0088|PIC16F877A-I/P|20|5|3.500|Semiconductors/ICs/Microcontrollers|||DIP-40|40|8-Bit PIC MCU|2.0|5.5|0.2|DIP-40|
+IC|IC0089|LM3914N|20|5|2.500|Semiconductors/ICs/Display|||DIP-18|18|Dot/Bar Driver|3.0|25.0|0.03|DIP-18|
+IC|IC0090|LM2596S-5.0|30|5|1.500|Semiconductors/ICs/Power|||TO-263-5|5|5V Step-Down|7.0|40.0|3.0|TO-263-5|
+CONNECTOR|CON0031|DB9 Male|30|5|0.600|Connectors/Serial|||THT|9|D-Sub|2.77|male
+CONNECTOR|CON0032|DB15 Female|20|5|0.800|Connectors/Serial|||THT|15|D-Sub|2.77|female
+CONNECTOR|CON0033|DB25 Female|20|5|1.200|Connectors/Serial|||THT|25|D-Sub|2.77|female
+CONNECTOR|CON0034|RJ45 Jack|30|5|0.850|Connectors/Ethernet|||THT|8|Ethernet|2.54|female
+CONNECTOR|CON0035|RJ11 Jack|30|5|0.650|Connectors/Telecom|||THT|4|Telecom|2.54|female
+CONNECTOR|CON0036|DC Barrel Jack 2.1|50|10|0.350|Connectors/Power|||THT|3|DC Power|0.0|female
+CONNECTOR|CON0037|DC Barrel Plug 2.1|50|10|0.450|Connectors/Power|||Cable|2|DC Power|0.0|male
+CONNECTOR|CON0038|3.5mm Audio Jack|50|10|0.450|Connectors/Audio|||THT|5|Stereo Audio|0.0|female
+CONNECTOR|CON0039|3.5mm Audio Plug|50|10|0.550|Connectors/Audio|||Cable|3|Stereo Audio|0.0|male
+CONNECTOR|CON0040|RCA Jack Red|40|10|0.400|Connectors/Audio|||THT|2|RCA Phono|0.0|female
+CONNECTOR|CON0041|RCA Jack White|40|10|0.400|Connectors/Audio|||THT|2|RCA Phono|0.0|female
+CONNECTOR|CON0042|XT60 Male|30|5|0.850|Connectors/Power|||Cable|2|High Current|0.0|male
+CONNECTOR|CON0043|XT60 Female|30|5|0.850|Connectors/Power|||Cable|2|High Current|0.0|female
+CONNECTOR|CON0044|Deans T-Plug Male|30|5|0.750|Connectors/Power|||Cable|2|High Current|0.0|male
+CONNECTOR|CON0045|Deans T-Plug Female|30|5|0.750|Connectors/Power|||Cable|2|High Current|0.0|female
+CONNECTOR|CON0046|IDC Header 2x05|40|10|0.450|Connectors/Ribbon|||THT|10|Box Header|2.54|male
+CONNECTOR|CON0047|IDC Header 2x08|40|10|0.550|Connectors/Ribbon|||THT|16|Box Header|2.54|male
+CONNECTOR|CON0048|IDC Socket 2x05|40|10|0.400|Connectors/Ribbon|||Cable|10|IDC Socket|2.54|female
+CONNECTOR|CON0049|IDC Socket 2x08|40|10|0.500|Connectors/Ribbon|||Cable|16|IDC Socket|2.54|female
+CONNECTOR|CON0050|FPC 10-Pin 0.5mm|30|5|0.650|Connectors/FPC|||SMD|10|FPC ZIF|0.5|female
+CONNECTOR|CON0051|FPC 20-Pin 0.5mm|30|5|0.850|Connectors/FPC|||SMD|20|FPC ZIF|0.5|female
+CONNECTOR|CON0052|FPC 40-Pin 0.5mm|20|5|1.200|Connectors/FPC|||SMD|40|FPC ZIF|0.5|female
+CONNECTOR|CON0053|DIN 5-Pin Female|20|5|1.100|Connectors/Audio|||THT|5|MIDI DIN|0.0|female
+CONNECTOR|CON0054|GX16 4-Pin Male|20|5|1.500|Connectors/Aviation|||Panel|4|Aviation|0.0|male
+CONNECTOR|CON0055|GX16 4-Pin Female|20|5|1.500|Connectors/Aviation|||Cable|4|Aviation|0.0|female
+CONNECTOR|CON0056|Banana Jack Red|40|10|0.550|Connectors/Test|||Panel|1|4mm Banana|0.0|female
+CONNECTOR|CON0057|Banana Jack Black|40|10|0.550|Connectors/Test|||Panel|1|4mm Banana|0.0|female
+CONNECTOR|CON0058|Banana Plug Red|40|10|0.650|Connectors/Test|||Cable|1|4mm Banana|0.0|male
+CONNECTOR|CON0059|Banana Plug Black|40|10|0.650|Connectors/Test|||Cable|1|4mm Banana|0.0|male
+CONNECTOR|CON0060|BNC Male Cable|20|5|1.600|Connectors/RF|||Cable|2|BNC|0.0|male
+ARBITRARY|ARB0046|SPDT Toggle Switch|50|10|0.850|Mechanical/Switches|||THT|3|Toggle|type=SPDT|rating=3A
+ARBITRARY|ARB0047|DPDT Toggle Switch|40|10|1.200|Mechanical/Switches|||THT|6|Toggle|type=DPDT|rating=3A
+ARBITRARY|ARB0048|SPST Slide Switch|100|20|0.350|Mechanical/Switches|||THT|3|Slide|type=SPDT|rating=0.5A
+ARBITRARY|ARB0049|DPDT Slide Switch|50|10|0.550|Mechanical/Switches|||THT|6|Slide|type=DPDT|rating=0.5A
+ARBITRARY|ARB0050|Tactile Button 6x6x5|200|50|0.050|Mechanical/Switches|||THT|4|Pushbutton|size=6x6x5mm|force=1.6N
+ARBITRARY|ARB0051|Tactile Button 6x6x9|200|50|0.060|Mechanical/Switches|||THT|4|Pushbutton|size=6x6x9mm|force=1.6N
+ARBITRARY|ARB0052|Tactile Button 12x12|100|20|0.150|Mechanical/Switches|||THT|4|Pushbutton|size=12x12x7mm|force=1.6N
+ARBITRARY|ARB0053|Microswitch SPDT|50|10|0.650|Mechanical/Switches|||THT|3|Snap Action|rating=5A|actuator=Lever
+ARBITRARY|ARB0054|DIP Switch 4-Pos|50|10|0.450|Mechanical/Switches|||DIP|8|DIP|pos=4|pitch=2.54
+ARBITRARY|ARB0055|DIP Switch 8-Pos|40|10|0.650|Mechanical/Switches|||DIP|16|DIP|pos=8|pitch=2.54
+ARBITRARY|ARB0056|Relay 5V SPDT|40|10|1.200|Mechanical/Relays|||THT|5|Electromechanical|coil=5V|rating=10A
+ARBITRARY|ARB0057|Relay 12V SPDT|40|10|1.200|Mechanical/Relays|||THT|5|Electromechanical|coil=12V|rating=10A
+ARBITRARY|ARB0058|Relay 24V SPDT|30|5|1.500|Mechanical/Relays|||THT|5|Electromechanical|coil=24V|rating=10A
+ARBITRARY|ARB0059|SSR 40A|10|2|8.500|Mechanical/Relays|||Panel|4|Solid State|input=3-32V|output=24-380VAC
+ARBITRARY|ARB0060|Buzzer 5V Active|50|10|0.450|Mechanical/Audio|||THT|2|Magnetic|voltage=5V|type=Active
+ARBITRARY|ARB0061|Buzzer 5V Passive|50|10|0.400|Mechanical/Audio|||THT|2|Magnetic|voltage=5V|type=Passive
+ARBITRARY|ARB0062|Piezo Element 20mm|50|10|0.250|Mechanical/Audio|||Wire|2|Piezoelectric|dia=20mm
+ARBITRARY|ARB0063|Speaker 8R 0.5W|30|5|1.500|Mechanical/Audio|||Wire|2|Dynamic|res=8R|pwr=0.5W
+ARBITRARY|ARB0064|CR2032 Holder|50|10|0.350|Mechanical/Holders|||THT|2|Battery Holder|type=CR2032
+ARBITRARY|ARB0065|18650 Holder Single|40|10|0.850|Mechanical/Holders|||THT|2|Battery Holder|type=18650x1
+ARBITRARY|ARB0066|18650 Holder Dual|30|5|1.200|Mechanical/Holders|||Wire|2|Battery Holder|type=18650x2
+ARBITRARY|ARB0067|AA Holder x2|40|10|0.650|Mechanical/Holders|||Wire|2|Battery Holder|type=AAx2
+ARBITRARY|ARB0068|LCD 16x2 Green|20|5|3.500|Modules/Displays|||Module|16|Character LCD|lines=2|chars=16
+ARBITRARY|ARB0069|LCD 16x2 Blue|20|5|3.500|Modules/Displays|||Module|16|Character LCD|lines=2|chars=16
+ARBITRARY|ARB0070|OLED 0.96 I2C|30|5|4.500|Modules/Displays|||Module|4|OLED Display|res=128x64|interface=I2C
+ARBITRARY|ARB0071|7-Segment Red CC|50|10|0.850|Modules/Displays|||DIP-10|10|LED Display|type=Common Cathode|digits=1
+ARBITRARY|ARB0072|Rotary Encoder|40|10|1.200|Mechanical/Encoders|||THT|5|Incremental|pulses=20|switch=Yes
+ARBITRARY|ARB0073|Trimpot 3362P 10k|50|10|0.450|Passives/Potentiometers|||THT|3|Trimmer|res=10k|turns=1
+ARBITRARY|ARB0074|Potentiometer 10k Lin|30|5|1.500|Passives/Potentiometers|||Panel|3|Rotary|res=10k|taper=Linear
+ARBITRARY|ARB0075|Potentiometer 100k Log|30|5|1.500|Passives/Potentiometers|||Panel|3|Rotary|res=100k|taper=Logarithmic

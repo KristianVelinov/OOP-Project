@@ -21,44 +21,167 @@ bool Persistence::saveAll(const Inventory& inv,
 
 bool Persistence::saveInventory(const Inventory& inv,
                                  const std::string& path) {
-    std::ofstream f(path);
+    std::string temp_path = path + ".tmp";
+    std::ofstream f(temp_path);
     if (!f.is_open()) return false;
-    f << "# ECIMS Inventory v1\n";
-    for (auto* c : inv.getAll())
-        f << c->serialize() << "\n";
-    return true;
+    
+    try {
+        f << "# ECIMS Inventory v3\n";
+        int count = 0;
+        int skipped = 0;
+        for (auto* c : inv.getAll()) {
+            if (!c) {
+                skipped++;
+                continue;
+            }
+            std::string line = c->serialize();
+            
+            // Validate serialization: must have pipe delimiters and match pattern
+            if (line.empty()) {
+                std::cerr << "Persistence: Empty serialization for " << c->getId() << "\n";
+                skipped++;
+                continue;
+            }
+            
+            // Quick sanity check: should have at least 10 pipes for base fields
+            int pipe_count = 0;
+            for (char ch : line) if (ch == '|') pipe_count++;
+            if (pipe_count < 10) {
+                std::cerr << "Persistence: Bad serialization (only " << pipe_count 
+                          << " pipes) for " << c->getId() << ": " << line.substr(0, 50) << "\n";
+                skipped++;
+                continue;
+            }
+            
+            f << line << "\n";
+            if (!f.good()) {
+                std::cerr << "Persistence: Write error at component " << count << "\n";
+                f.close();
+                fs::remove(temp_path);
+                return false;
+            }
+            count++;
+        }
+        
+        if (skipped > 0) {
+            std::cerr << "Persistence: Skipped " << skipped << " corrupted components\n";
+        }
+        
+        f.close();
+        if (!f.good()) {
+            std::cerr << "Persistence: File close failed\n";
+            fs::remove(temp_path);
+            return false;
+        }
+        
+        // Atomic rename: backup old file, move new file into place
+        if (fs::exists(path)) {
+            std::string backup = path + ".bak";
+            fs::remove(backup);  // Remove old backup if it exists
+            fs::rename(path, backup);
+        }
+        fs::rename(temp_path, path);
+        return true;
+    } catch (const std::exception& e) {
+        std::cerr << "Persistence: Exception during saveInventory: " << e.what() << "\n";
+        f.close();
+        fs::remove(temp_path);
+        return false;
+    }
 }
 
 bool Persistence::saveTaxonomy(const Inventory& inv,
                                 const std::string& path) {
-    std::ofstream f(path);
+    std::string temp_path = path + ".tmp";
+    std::ofstream f(temp_path);
     if (!f.is_open()) return false;
-    f << "# ECIMS Taxonomy v1\n";
-    for (auto& p : inv.getTaxonomy().allPaths())
-        f << p << "\n";
-    return true;
+    try {
+        f << "# ECIMS Taxonomy v3\n";
+        for (auto& p : inv.getTaxonomy().allPaths()) {
+            f << p << "\n";
+            if (!f.good()) {
+                f.close();
+                fs::remove(temp_path);
+                return false;
+            }
+        }
+        f.close();
+        if (fs::exists(path)) {
+            std::string backup = path + ".bak";
+            fs::remove(backup);
+            fs::rename(path, backup);
+        }
+        fs::rename(temp_path, path);
+        return true;
+    } catch (const std::exception& e) {
+        std::cerr << "Persistence: Exception during saveTaxonomy: " << e.what() << "\n";
+        f.close();
+        fs::remove(temp_path);
+        return false;
+    }
 }
 
 bool Persistence::saveProjects(const ProjectManager& pm,
                                 const std::string& path) {
-    std::ofstream f(path);
+    std::string temp_path = path + ".tmp";
+    std::ofstream f(temp_path);
     if (!f.is_open()) return false;
-    f << "# ECIMS Projects v1\n";
-    for (auto& name : pm.listProjects()) {
-        const Project& p = const_cast<ProjectManager&>(pm).getProject(name);
-        f << p.getName() << "|" << p.getDescription() << "\n";
+    try {
+        f << "# ECIMS Projects v3\n";
+        for (auto& name : pm.listProjects()) {
+            const Project& p = const_cast<ProjectManager&>(pm).getProject(name);
+            f << p.getName() << "|" << p.getDescription() << "\n";
+            if (!f.good()) {
+                f.close();
+                fs::remove(temp_path);
+                return false;
+            }
+        }
+        f.close();
+        if (fs::exists(path)) {
+            std::string backup = path + ".bak";
+            fs::remove(backup);
+            fs::rename(path, backup);
+        }
+        fs::rename(temp_path, path);
+        return true;
+    } catch (const std::exception& e) {
+        std::cerr << "Persistence: Exception during saveProjects: " << e.what() << "\n";
+        f.close();
+        fs::remove(temp_path);
+        return false;
     }
-    return true;
 }
 
 bool Persistence::saveTransactions(const ProjectManager& pm,
                                     const std::string& path) {
-    std::ofstream f(path);
+    std::string temp_path = path + ".tmp";
+    std::ofstream f(temp_path);
     if (!f.is_open()) return false;
-    f << "# ECIMS Transactions v1\n";
-    for (auto& tx : pm.getGlobalLog().getAll())
-        f << tx.serialize() << "\n";
-    return true;
+    try {
+        f << "# ECIMS Transactions v3\n";
+        for (auto& tx : pm.getGlobalLog().getAll()) {
+            f << tx.serialize() << "\n";
+            if (!f.good()) {
+                f.close();
+                fs::remove(temp_path);
+                return false;
+            }
+        }
+        f.close();
+        if (fs::exists(path)) {
+            std::string backup = path + ".bak";
+            fs::remove(backup);
+            fs::rename(path, backup);
+        }
+        fs::rename(temp_path, path);
+        return true;
+    } catch (const std::exception& e) {
+        std::cerr << "Persistence: Exception during saveTransactions: " << e.what() << "\n";
+        f.close();
+        fs::remove(temp_path);
+        return false;
+    }
 }
 
 bool Persistence::loadAll(Inventory& inv,
