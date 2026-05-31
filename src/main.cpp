@@ -291,6 +291,88 @@ static int arrowMenu(
     }
 }
 
+// ── Interactive Live-Search Menu ──────────────────────────────────────────────
+// Returns the ID of the selected component, or an empty string if cancelled.
+static std::string componentSearchMenu(Inventory& inv, const std::string& title) {
+    std::string query = "";
+    int selected = 0;
+    std::vector<Component*> matches;
+
+    while (true) {
+        clearScreen();
+        banner();
+        hdr(title);
+        
+        std::cout << "  Search (Name or ID): " << CLR_CYAN << query << "_\n\n" << CLR_RESET;
+
+        // 1. Filter the inventory based on the query (case-insensitive)
+        matches.clear();
+        std::string qLower = query;
+        std::transform(qLower.begin(), qLower.end(), qLower.begin(), ::tolower);
+
+        for (auto* c : inv.getAll()) {
+            std::string nLower = c->getName();
+            std::transform(nLower.begin(), nLower.end(), nLower.begin(), ::tolower);
+            std::string idLower = c->getId();
+            std::transform(idLower.begin(), idLower.end(), idLower.begin(), ::tolower);
+
+            // If query is empty, show all. Otherwise, match against name or ID
+            if (qLower.empty() || nLower.find(qLower) != std::string::npos || idLower.find(qLower) != std::string::npos) {
+                matches.push_back(c);
+            }
+            if (matches.size() >= 10) break; // Limit UI to top 10 results
+        }
+
+        // 2. Render the results
+        if (matches.empty()) {
+            std::cout << CLR_DIM "  (No matches found)\n" CLR_RESET;
+        } else {
+            // Keep bounds safe if typing narrows down the list
+            if (selected >= (int)matches.size()) selected = std::max(0, (int)matches.size() - 1);
+            if (selected < 0) selected = 0;
+
+            for (int i = 0; i < (int)matches.size(); ++i) {
+                if (i == selected) {
+                    std::cout << CLR_SELECT "  > " << std::left << std::setw(12) << matches[i]->getId() 
+                              << matches[i]->getName() << "  " CLR_RESET "\n";
+                } else {
+                    std::cout << "    " << std::left << std::setw(12) << matches[i]->getId() 
+                              << matches[i]->getName() << "\n";
+                }
+            }
+        }
+
+        std::cout << "\n" CLR_DIM "  [Type to search]  [↑↓ navigate]  [Enter to confirm]  [ESC to cancel]" CLR_RESET "\n";
+
+        // 3. Handle Keyboard Input
+        int ch = _getch();
+        if (ch == 224) { // Arrow keys trigger 224 first
+            ch = _getch();
+            if (ch == 72) { // Up
+                if (--selected < 0) selected = std::max(0, (int)matches.size() - 1);
+            } else if (ch == 80) { // Down
+                if (++selected >= (int)matches.size()) selected = 0;
+            }
+        } 
+        else if (ch == 13) { // Enter
+            if (!matches.empty()) return matches[selected]->getId();
+        } 
+        else if (ch == 27) { // ESC
+            return ""; // Cancelled
+        } 
+        else if (ch == 8) { // Backspace
+            if (!query.empty()) {
+                query.pop_back();
+                selected = 0; // Reset selection on typing
+            }
+        } 
+        else if (ch >= 32 && ch <= 126) { // Printable characters
+            query += (char)ch;
+            selected = 0; // Reset selection on typing
+        }
+    }
+}
+
 // ── Auto-save helper ──────────────────────────────────────────────────────────
 static void trySave(Inventory &inv, ProjectManager &pm)
 {
@@ -551,7 +633,11 @@ static void moduleEditComponent(Inventory &inv, ProjectManager &pm)
     clearScreen();
     banner();
     hdr("Edit Component");
-    std::string id = inputLine("Component ID to edit: ");
+    std::string id = componentSearchMenu(inv, "Component ID to edit: ");
+    if(id.empty())
+    {
+        return;
+    }
     Component *c = inv.getComponent(id);
     if (!c)
     {
@@ -613,7 +699,11 @@ static void moduleDeleteComponent(Inventory &inv, ProjectManager &pm)
     clearScreen();
     banner();
     hdr("Delete Component");
-    std::string id = inputLine("Component ID to delete: ");
+    std::string id = componentSearchMenu(inv, "Component ID to delete: ");
+    if(id.empty())
+    {
+        return;
+    }
     Component *c = inv.getComponent(id);
     if (!c)
     {
@@ -680,7 +770,11 @@ static void menuInventory(Inventory &inv, ProjectManager &pm)
             clearScreen();
             banner();
             hdr("View Component");
-            std::string id = inputLine("Component ID: ");
+            std::string id = componentSearchMenu(inv, "Component ID: ");
+            if(id.empty())
+            {
+                continue;
+            }
             Component *c = inv.getComponent(id);
             if (c)
                 c->display();
@@ -1080,7 +1174,11 @@ static void menuProjects(Inventory &inv, ProjectManager &pm)
                 clearScreen();
                 banner();
                 hdr("Restock Component");
-                std::string id = inputLine("Component ID: ");
+                std::string id = componentSearchMenu(inv, "Component ID: ");
+                if(id.empty())
+                {
+                    break;
+                }
                 int qty = inputInt("Quantity to add", 10);
                 if (pm.restockComponent(id, qty))
                 {
@@ -1125,7 +1223,7 @@ static void menuProjects(Inventory &inv, ProjectManager &pm)
             hdr("Checkout Components -> " + activeProject);
             std::cout << "\n  Enter components to checkout (Leave ID blank and press Enter to finish):\n\n";
             while (true) {
-                std::string id = inputLine("  Component ID: ");
+                std::string id = componentSearchMenu(inv, "  Component ID: ");
                 if (id.empty()) break;
                 
                 int qty = inputInt("  Quantity to checkout", 1);
@@ -1141,7 +1239,7 @@ static void menuProjects(Inventory &inv, ProjectManager &pm)
         }
         else if (ch == 1) { // Return
             hdr("Return Components <- " + activeProject);
-            std::string id   = inputLine("Component ID: ");
+            std::string id   = componentSearchMenu(inv, "Component ID: ");
             int         qty  = inputInt("Quantity to return", 1);
             if (pm.returnToInventory(activeProject, id, qty)) {
                 std::cout << CLR_GREEN "  ✓ Returned.\n" CLR_RESET;
@@ -1317,7 +1415,11 @@ static void menuDatasheet(Inventory &inv)
         clearScreen();
         banner();
 
-        std::string id = inputLine("Component ID: ");
+        std::string id = componentSearchMenu(inv, "Component ID: ");
+        if(id.empty())
+        {
+            continue;
+        }
 
         if (ch == 0)
         {

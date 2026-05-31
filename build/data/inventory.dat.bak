@@ -1,11 +1,11 @@
 # ECIMS Inventory v3
-ARBITRARY|ARB0001|Crystal 32.768kHz|50|10|0.150000|Passives/Crystals|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Cylinder|2|RTC Crystal|freq=32768|load=12.5pF
+ARBITRARY|ARB0001|Crystal 32.768kHz|46|10|0.150000|Passives/Crystals|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Cylinder|2|RTC Crystal|freq=32768|load=12.5pF
 ARBITRARY|ARB0002|Crystal 8MHz|50|10|0.180000|Passives/Crystals|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|HC-49|2|8MHz Crystal|freq=8000000|load=18pF
 ARBITRARY|ARB0003|Crystal 12MHz|50|10|0.180000|Passives/Crystals|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|HC-49|2|12MHz Crystal|freq=12000000|load=18pF
 ARBITRARY|ARB0004|Crystal 16MHz|50|10|0.200000|Passives/Crystals|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|HC-49|2|16MHz Crystal|freq=16000000|load=18pF
-ARBITRARY|ARB0005|Crystal 24MHz|50|10|0.220000|Passives/Crystals|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|HC-49|2|24MHz Crystal|freq=24000000|load=18pF
+ARBITRARY|ARB0005|Crystal 24MHz|44|10|0.220000|Passives/Crystals|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|HC-49|2|24MHz Crystal|freq=24000000|load=18pF
 ARBITRARY|ARB0006|PTC Fuse 500mA|50|10|0.250000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|Resettable PTC|rating=0.5A|trip=1.0A
-ARBITRARY|ARB0007|PTC Fuse 1A|50|10|0.300000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|Resettable PTC|rating=1.0A|trip=2.0A
+ARBITRARY|ARB0007|PTC Fuse 1A|37|10|0.300000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|Resettable PTC|rating=1.0A|trip=2.0A
 ARBITRARY|ARB0008|Glass Fuse 2A|50|10|0.150000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|5x20|2|Fast-Blow Glass|rating=2.0A|size=5x20mm
 ARBITRARY|ARB0009|Glass Fuse 5A|50|10|0.150000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|5x20|2|Fast-Blow Glass|rating=5.0A|size=5x20mm
 ARBITRARY|ARB0010|Blade Fuse 10A|30|5|0.400000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|ATC|2|Automotive Blade|rating=10.0A|type=ATC
