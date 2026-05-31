@@ -332,12 +332,18 @@ static std::string componentSearchMenu(Inventory& inv, const std::string& title)
             if (selected < 0) selected = 0;
 
             for (int i = 0; i < (int)matches.size(); ++i) {
+                // Truncate long names so the Qty column stays perfectly aligned
+                std::string name = matches[i]->getName();
+                if (name.length() > 28) name = name.substr(0, 25) + "...";
+
                 if (i == selected) {
                     std::cout << CLR_SELECT "  > " << std::left << std::setw(12) << matches[i]->getId() 
-                              << matches[i]->getName() << "  " CLR_RESET "\n";
+                              << std::setw(30) << name 
+                              << " [Qty: " << std::setw(4) << matches[i]->getQuantity() << "] " CLR_RESET "\n";
                 } else {
                     std::cout << "    " << std::left << std::setw(12) << matches[i]->getId() 
-                              << matches[i]->getName() << "\n";
+                              << std::setw(30) << name 
+                              << " [Qty: " << std::setw(4) << matches[i]->getQuantity() << "]\n";
                 }
             }
         }
