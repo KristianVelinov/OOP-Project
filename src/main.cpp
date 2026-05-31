@@ -35,6 +35,7 @@
 #include <algorithm>
 #include <vector>
 #include <functional>
+#include <set>
 
 // ── ANSI colours ──────────────────────────────────────────────────────────────
 #ifdef _WIN32
@@ -842,68 +843,228 @@ static void menuInventory(Inventory &inv, ProjectManager &pm)
 // ══════════════════════════════════════════════════════════════════════════════
 // MODULE 2 – TAXONOMY BROWSER
 // ══════════════════════════════════════════════════════════════════════════════
-static void printTree(TaxonomyNode *node, int depth = 0)
-{
-    if (!node)
-        return;
-    if (node->getName() == "__root__")
-    {
-        for (auto *c : node->getChildren())
-            printTree(c, 0);
+// static void printTree(TaxonomyNode *node, int depth = 0)
+// {
+//     if (!node)
+//         return;
+//     if (node->getName() == "__root__")
+//     {
+//         for (auto *c : node->getChildren())
+//             printTree(c, 0);
+//         return;
+//     }
+//     std::cout << std::string(depth * 2, ' ')
+//               << (depth ? "├─ " : "")
+//               << CLR_CYAN << node->getName() << CLR_RESET
+//               << (node->isLeaf() ? "" : CLR_DIM "/" CLR_RESET) << "\n";
+//     for (auto *c : node->getChildren())
+//         printTree(c, depth + 1);
+// }
+
+// static void menuTaxonomy(Inventory &inv, ProjectManager & /*pm*/)
+// {
+//     while (true)
+//     {
+//         int ch = arrowMenu("Category Browser (Taxonomy)", {"Browse full tree", "List children of path", "Create new sub-category", "Delete category (leaf only)", "Back"}, 4);
+
+//         if (ch == 4)
+//             return;
+//         clearScreen();
+//         banner();
+
+//         if (ch == 0)
+//         {
+//             hdr("Full Category Tree");
+//             std::cout << "\n";
+//             printTree(inv.getTaxonomy().getRoot());
+//             pause();
+//         }
+//         else if (ch == 1)
+//         {
+//             hdr("List Children");
+//             std::string path = inputLine("Path (leave blank for root): ");
+//             for (auto &p : inv.getTaxonomy().listChildren(path))
+//                 std::cout << "  " << CLR_CYAN << p << CLR_RESET "\n";
+//             pause();
+//         }
+//         else if (ch == 2)
+//         {
+//             hdr("Create Sub-Category");
+//             std::string parent = inputLine("Parent path (blank = root): ");
+//             std::string name = inputLine("New category name: ");
+//             auto *node = inv.getTaxonomy().createCategory(parent, name);
+//             std::cout << CLR_GREEN "  ✓ Created: " << node->getFullPath() << CLR_RESET "\n";
+//             pause();
+//         }
+//         else if (ch == 3)
+//         {
+//             hdr("Delete Category");
+//             std::string path = inputLine("Path to delete: ");
+//             if (inv.getTaxonomy().deleteCategory(path))
+//                 std::cout << CLR_GREEN "  ✓ Deleted.\n" CLR_RESET;
+//             else
+//                 std::cout << CLR_RED "  Not found or has children.\n" CLR_RESET;
+//             pause();
+//         }
+//     }
+// }
+
+// ── Tree Browser Row State ───────────────────────────────────────────────────
+struct TreeRow {
+    TaxonomyNode* node;
+    int depth;
+    bool isExpanded;
+};
+
+// Recursively builds a flattened vector of only the currently visible/expanded rows
+static void buildFlatTree(TaxonomyNode* node, int depth, const std::set<TaxonomyNode*>& expanded, std::vector<TreeRow>& rows) {
+    if (!node) return;
+    
+    // Skip the internal virtual root container from rendering directly
+    if (node->getName() == "__root__") {
+        for (auto* child : node->getChildren()) {
+            buildFlatTree(child, 0, expanded, rows);
+        }
         return;
     }
-    std::cout << std::string(depth * 2, ' ')
-              << (depth ? "├─ " : "")
-              << CLR_CYAN << node->getName() << CLR_RESET
-              << (node->isLeaf() ? "" : CLR_DIM "/" CLR_RESET) << "\n";
-    for (auto *c : node->getChildren())
-        printTree(c, depth + 1);
+    
+    bool isExp = expanded.count(node) > 0;
+    rows.push_back({node, depth, isExp});
+    
+    // Only traverse into children if the user has expanded this branch
+    if (isExp) {
+        for (auto* child : node->getChildren()) {
+            buildFlatTree(child, depth + 1, expanded, rows);
+        }
+    }
 }
 
-static void menuTaxonomy(Inventory &inv, ProjectManager & /*pm*/)
-{
-    while (true)
-    {
-        int ch = arrowMenu("Category Browser (Taxonomy)", {"Browse full tree", "List children of path", "Create new sub-category", "Delete category (leaf only)", "Back"}, 4);
+// ── Interactive Taxonomy Explorer ─────────────────────────────────────────────
+static void menuTaxonomy(Inventory &inv, ProjectManager &pm) {
+    std::set<TaxonomyNode*> expandedNodes;
+    int selected = 0;
 
-        if (ch == 4)
-            return;
+    while (true) {
+        std::vector<TreeRow> rows;
+        buildFlatTree(inv.getTaxonomy().getRoot(), 0, expandedNodes, rows);
+
+        // Edge Case: If no categories exist at all
+        if (rows.empty()) {
+            clearScreen();
+            banner();
+            hdr("Category Browser (Taxonomy)");
+            std::cout << CLR_DIM "  (No categories exist yet)\n" CLR_RESET;
+            std::cout << "\n" CLR_YELLOW "  [C] Create Top-Level Category  [ESC] Go Back\n" CLR_RESET;
+            
+            int ch = _getch();
+            if (ch == 'c' || ch == 'C') {
+                std::string name = inputLine("New top-level category name: ");
+                if (!name.empty()) {
+                    inv.getTaxonomy().createCategory("", name);
+                    trySave(inv, pm);
+                }
+            } else if (ch == 27) {
+                return;
+            }
+            continue;
+        }
+
+        // Maintain safe bounds if a deletion or shift happens
+        if (selected >= (int)rows.size()) selected = (int)rows.size() - 1;
+        if (selected < 0) selected = 0;
+
         clearScreen();
         banner();
+        hdr("Interactive Category Browser");
+        std::cout << "\n";
 
-        if (ch == 0)
-        {
-            hdr("Full Category Tree");
+        // Render the navigation tree
+        for (int i = 0; i < (int)rows.size(); ++i) {
+            std::string indentStr = std::string(rows[i].depth * 3, ' ');
+            std::string prefix = rows[i].node->isLeaf() ? "• " : (rows[i].isExpanded ? "[-] " : "[+] ");
+            
+            if (i == selected) {
+                std::cout << CLR_SELECT "  > " << indentStr << prefix << rows[i].node->getName() << "   " CLR_RESET "\n";
+            } else {
+                std::cout << "    " << indentStr << CLR_CYAN << prefix << rows[i].node->getName() << CLR_RESET "\n";
+            }
+        }
+
+        // Legend Controls Footer
+        std::cout << "\n" CLR_DIM 
+                  << "  [↑↓ Navigate]       [→ Expand Branch]     [← Collapse Branch]\n"
+                  << "  [Enter] View Items  [C] Create Sub-Cat    [D] Delete Selected  [ESC] Main Menu" 
+                  << CLR_RESET "\n";
+
+        int ch = _getch();
+        
+        // Handle extended key prefixes (Arrow keys)
+        if (ch == 224 || ch == 0) {
+            ch = _getch();
+            if (ch == 72) { // Up Arrow
+                if (--selected < 0) selected = (int)rows.size() - 1;
+            } 
+            else if (ch == 80) { // Down Arrow
+                if (++selected >= (int)rows.size()) selected = 0;
+            } 
+            else if (ch == 77) { // Right Arrow (Expand)
+                if (!rows[selected].node->isLeaf()) {
+                    expandedNodes.insert(rows[selected].node);
+                }
+            } 
+            else if (ch == 75) { // Left Arrow (Collapse)
+                if (!rows[selected].node->isLeaf()) {
+                    expandedNodes.erase(rows[selected].node);
+                }
+            }
+        } 
+        else if (ch == 13) { // Enter Key -> Lists all components inside the selected node
+            clearScreen();
+            banner();
+            hdr("Category Items: " + rows[selected].node->getFullPath());
             std::cout << "\n";
-            printTree(inv.getTaxonomy().getRoot());
+            printCompList(inv.getByCategory(rows[selected].node->getFullPath()));
             pause();
-        }
-        else if (ch == 1)
-        {
-            hdr("List Children");
-            std::string path = inputLine("Path (leave blank for root): ");
-            for (auto &p : inv.getTaxonomy().listChildren(path))
-                std::cout << "  " << CLR_CYAN << p << CLR_RESET "\n";
+        } 
+        else if (ch == 'c' || ch == 'C') { // Hotkey to create a Subcategory
+            std::string parentPath = rows[selected].node->getFullPath();
+            clearScreen();
+            banner();
+            hdr("Create Subcategory under: " + parentPath);
+            std::string name = inputLine("New subcategory name: ");
+            
+            if (!name.empty()) {
+                inv.getTaxonomy().createCategory(parentPath, name);
+                expandedNodes.insert(rows[selected].node); // Automatically expand parent to show the new child
+                std::cout << CLR_GREEN "\n  ✓ Subcategory created successfully.\n" CLR_RESET;
+                trySave(inv, pm);
+            } else {
+                std::cout << CLR_YELLOW "\n  Cancelled.\n" CLR_RESET;
+            }
             pause();
-        }
-        else if (ch == 2)
-        {
-            hdr("Create Sub-Category");
-            std::string parent = inputLine("Parent path (blank = root): ");
-            std::string name = inputLine("New category name: ");
-            auto *node = inv.getTaxonomy().createCategory(parent, name);
-            std::cout << CLR_GREEN "  ✓ Created: " << node->getFullPath() << CLR_RESET "\n";
+        } 
+        else if (ch == 'd' || ch == 'D') { // Hotkey to delete a Category
+            std::string pathToDelete = rows[selected].node->getFullPath();
+            clearScreen();
+            banner();
+            hdr("Delete Category: " + pathToDelete);
+            
+            if (g_settings.confirmDelete) {
+                int ans = arrowMenu("Are you sure you want to delete this category?", {"Yes — delete permanently", "No — cancel"}, 4);
+                if (ans != 0) continue;
+            }
+
+            if (inv.getTaxonomy().deleteCategory(pathToDelete)) {
+                std::cout << CLR_GREEN "\n  ✓ Category successfully deleted.\n" CLR_RESET;
+                trySave(inv, pm);
+                if (selected > 0) selected--; // Shift navigation highlight back up smoothly
+            } else {
+                std::cout << CLR_RED "\n  Error: Cannot delete category. Ensure it contains no subcategories or items.\n" CLR_RESET;
+            }
             pause();
-        }
-        else if (ch == 3)
-        {
-            hdr("Delete Category");
-            std::string path = inputLine("Path to delete: ");
-            if (inv.getTaxonomy().deleteCategory(path))
-                std::cout << CLR_GREEN "  ✓ Deleted.\n" CLR_RESET;
-            else
-                std::cout << CLR_RED "  Not found or has children.\n" CLR_RESET;
-            pause();
+        } 
+        else if (ch == 27) { // ESC Key
+            return;
         }
     }
 }

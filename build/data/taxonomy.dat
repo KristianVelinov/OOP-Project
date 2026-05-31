@@ -82,4 +82,5 @@ Modules
 Modules/Displays
 Electromechanical
 Electromechanical/Motors
-Electromechanical/Motors/DC
+Electromechanical/Motors/3-Phase BLDC
+Electromechanical/Motors/DC Brushed
