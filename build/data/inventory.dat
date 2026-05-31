@@ -5,7 +5,7 @@ ARBITRARY|ARB0003|Crystal 12MHz|50|10|0.180000|Passives/Crystals|https://www.you
 ARBITRARY|ARB0004|Crystal 16MHz|50|10|0.200000|Passives/Crystals|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|HC-49|2|16MHz Crystal|freq=16000000|load=18pF
 ARBITRARY|ARB0005|Crystal 24MHz|50|10|0.220000|Passives/Crystals|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|HC-49|2|24MHz Crystal|freq=24000000|load=18pF
 ARBITRARY|ARB0006|PTC Fuse 500mA|50|10|0.250000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|Resettable PTC|rating=0.5A|trip=1.0A
-ARBITRARY|ARB0007|PTC Fuse 1A|50|10|0.300000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|Resettable PTC|rating=1.0A|trip=2.0A
+ARBITRARY|ARB0007|PTC Fuse 1A|37|10|0.300000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|Resettable PTC|rating=1.0A|trip=2.0A
 ARBITRARY|ARB0008|Glass Fuse 2A|50|10|0.150000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|5x20|2|Fast-Blow Glass|rating=2.0A|size=5x20mm
 ARBITRARY|ARB0009|Glass Fuse 5A|50|10|0.150000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|5x20|2|Fast-Blow Glass|rating=5.0A|size=5x20mm
 ARBITRARY|ARB0010|Blade Fuse 10A|30|5|0.400000|Passives/Fuses|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|ATC|2|Automotive Blade|rating=10.0A|type=ATC
@@ -34,7 +34,7 @@ ARBITRARY|ARB0032|M3 Nut|500|100|0.015000|Mechanical/Hardware|https://www.youtub
 ARBITRARY|ARB0033|M3 Washer|500|100|0.010000|Mechanical/Hardware|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Hardware|0|Flat Washer|thread=M3|type=Flat
 ARBITRARY|ARB0034|M2.5 Screw 5mm|200|50|0.020000|Mechanical/Hardware|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Hardware|0|Philips Pan Head|length=5mm|thread=M2.5
 ARBITRARY|ARB0035|M2 Screw 4mm|200|50|0.020000|Mechanical/Hardware|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Hardware|0|Philips Pan Head|length=4mm|thread=M2
-ARBITRARY|ARB0036|FR4 Board 5x7 SS|20|5|1.500000|Mechanical/PCB|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Board|0|Single Sided Copper|dim=50x70mm|thick=1.6mm
+ARBITRARY|ARB0036|FR4 Board 5x7 SS|16|5|1.500000|Mechanical/PCB|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Board|0|Single Sided Copper|dim=50x70mm|thick=1.6mm
 ARBITRARY|ARB0037|FR4 Board 7x10 DS|20|5|2.500000|Mechanical/PCB|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Board|0|Double Sided Copper|dim=70x100mm|thick=1.6mm
 ARBITRARY|ARB0038|Perfboard 5x7|30|10|0.800000|Mechanical/PCB|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Board|0|Prototyping Board|dim=50x70mm|pitch=2.54mm
 ARBITRARY|ARB0039|Perfboard 7x9|30|10|1.200000|Mechanical/PCB|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Board|0|Prototyping Board|dim=70x90mm|pitch=2.54mm

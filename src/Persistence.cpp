@@ -237,8 +237,7 @@ bool Persistence::loadProjects(ProjectManager& pm, const std::string& path) {
     return true;
 }
 
-bool Persistence::loadTransactions(ProjectManager& pm,
-                                    const std::string& path) {
+bool Persistence::loadTransactions(ProjectManager& pm, const std::string& path) {
     std::ifstream f(path);
     if (!f.is_open()) return false;
     std::string line;
@@ -246,7 +245,17 @@ bool Persistence::loadTransactions(ProjectManager& pm,
         if (line.empty() || line[0] == '#') continue;
         try {
             Transaction tx = Transaction::deserialize(line);
+            
+            // 1. Add to the master global log
             pm.getGlobalLog().addRaw(tx);
+            
+            // 2. Route the transaction back to its specific project so it remembers!
+            if (tx.getType() == TransactionType::CHECKOUT || tx.getType() == TransactionType::RETURN) {
+                std::string pName = tx.getProjectName(); // Use tx.projectName if it's a public struct field
+                if (pm.hasProject(pName)) {
+                    pm.getProject(pName).getLog().addRaw(tx);
+                }
+            }
         } catch(...) {}
     }
     return true;

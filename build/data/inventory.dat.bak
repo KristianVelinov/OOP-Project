@@ -34,7 +34,7 @@ ARBITRARY|ARB0032|M3 Nut|500|100|0.015000|Mechanical/Hardware|https://www.youtub
 ARBITRARY|ARB0033|M3 Washer|500|100|0.010000|Mechanical/Hardware|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Hardware|0|Flat Washer|thread=M3|type=Flat
 ARBITRARY|ARB0034|M2.5 Screw 5mm|200|50|0.020000|Mechanical/Hardware|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Hardware|0|Philips Pan Head|length=5mm|thread=M2.5
 ARBITRARY|ARB0035|M2 Screw 4mm|200|50|0.020000|Mechanical/Hardware|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Hardware|0|Philips Pan Head|length=4mm|thread=M2
-ARBITRARY|ARB0036|FR4 Board 5x7 SS|20|5|1.500000|Mechanical/PCB|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Board|0|Single Sided Copper|dim=50x70mm|thick=1.6mm
+ARBITRARY|ARB0036|FR4 Board 5x7 SS|16|5|1.500000|Mechanical/PCB|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Board|0|Single Sided Copper|dim=50x70mm|thick=1.6mm
 ARBITRARY|ARB0037|FR4 Board 7x10 DS|20|5|2.500000|Mechanical/PCB|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Board|0|Double Sided Copper|dim=70x100mm|thick=1.6mm
 ARBITRARY|ARB0038|Perfboard 5x7|30|10|0.800000|Mechanical/PCB|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Board|0|Prototyping Board|dim=50x70mm|pitch=2.54mm
 ARBITRARY|ARB0039|Perfboard 7x9|30|10|1.200000|Mechanical/PCB|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Board|0|Prototyping Board|dim=70x90mm|pitch=2.54mm

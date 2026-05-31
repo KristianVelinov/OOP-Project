@@ -1104,70 +1104,63 @@ static void menuProjects(Inventory &inv, ProjectManager &pm)
 
         // ── 2. ACTIVE PROJECT MENU ──────────────────────────────────────────
         std::string title = std::string("Active Project: ") + CLR_CYAN + activeProject + CLR_RESET;
-        int ch = arrowMenu(title, {"Checkout components for project (Batch)", "Return components to inventory", "View checked-out components (Current BOM)", "View project transaction log", "View project cost", "Export transaction log to CSV", CLR_RED "Delete project" CLR_RESET, "Change active project", "Back to Main Menu"}, 4);
+        int ch = arrowMenu(title, {
+            "Checkout components for project",
+            "Return components to inventory",
+            "View checked-out components",
+            CLR_GREEN "Export project BOM to CSV" CLR_RESET, 
+            "View project transaction log",
+            "View project cost",
+            CLR_GREEN "Export transaction log to CSV" CLR_RESET,
+            CLR_RED "Delete project" CLR_RESET,
+            "Change active project",
+            "Back to Main Menu"
+        }, 4);
 
-        if (ch == 8)
-            return;
+        if (ch == 9) return; // Note: Bumped to 9 because we added an option
 
-        clearScreen();
-        banner();
+        clearScreen(); banner();
 
-        if (ch == 0)
-        { // Checkout
+        if (ch == 0) { // Checkout
             hdr("Checkout Components -> " + activeProject);
             std::cout << "\n  Enter components to checkout (Leave ID blank and press Enter to finish):\n\n";
-            while (true)
-            {
+            while (true) {
                 std::string id = inputLine("  Component ID: ");
-                if (id.empty())
-                    break;
-
+                if (id.empty()) break;
+                
                 int qty = inputInt("  Quantity to checkout", 1);
-                if (pm.checkoutForProject(activeProject, id, qty))
-                {
+                if (pm.checkoutForProject(activeProject, id, qty)) {
                     std::cout << CLR_GREEN "    ✓ Checked out " << qty << " × " << id << "\n\n" CLR_RESET;
                     trySave(inv, pm);
-                }
-                else
-                {
+                } else {
                     std::cout << CLR_RED "    Failed — insufficient stock or not found.\n\n" CLR_RESET;
                 }
             }
             std::cout << "  Batch checkout complete.\n";
             pause();
         }
-        else if (ch == 1)
-        { // Return
+        else if (ch == 1) { // Return
             hdr("Return Components <- " + activeProject);
-            std::string id = inputLine("Component ID: ");
-            int qty = inputInt("Quantity to return", 1);
-            if (pm.returnToInventory(activeProject, id, qty))
-            {
+            std::string id   = inputLine("Component ID: ");
+            int         qty  = inputInt("Quantity to return", 1);
+            if (pm.returnToInventory(activeProject, id, qty)) {
                 std::cout << CLR_GREEN "  ✓ Returned.\n" CLR_RESET;
                 trySave(inv, pm);
-            }
-            else
-            {
+            } else {
                 std::cout << CLR_RED "  Failed.\n" CLR_RESET;
             }
             pause();
         }
-        else if (ch == 2)
-        { // View Current BOM / Checked-out
+        else if (ch == 2) { // View Current BOM / Checked-out
             hdr("Currently Checked-Out (BOM): " + activeProject);
-
+            
             auto txs = pm.getProject(activeProject).getLog().getAll();
             std::map<std::string, int> netBOM;
 
-            // Tally the current components based on the transaction log history
-            for (auto &tx : txs)
-            {
-                if (tx.getType() == TransactionType::CHECKOUT)
-                {
+            for (auto& tx : txs) {
+                if (tx.getType() == TransactionType::CHECKOUT) {
                     netBOM[tx.getComponentId()] += tx.getQuantity();
-                }
-                else if (tx.getType() == TransactionType::RETURN)
-                {
+                } else if (tx.getType() == TransactionType::RETURN) {
                     netBOM[tx.getComponentId()] -= tx.getQuantity();
                 }
             }
@@ -1175,97 +1168,136 @@ static void menuProjects(Inventory &inv, ProjectManager &pm)
             bool hasItems = false;
             double grandTotal = 0.0;
 
-            // ── Table Header ────────────────────────────────────────────────
-            std::cout << "\n  " << CLR_BOLD << std::left
-                      << std::setw(12) << "ID"
-                      << std::setw(28) << "Name"
-                      << std::setw(8) << "Qty"
+            std::cout << "\n  " << CLR_BOLD << std::left 
+                      << std::setw(12) << "ID" 
+                      << std::setw(28) << "Name" 
+                      << std::setw(8)  << "Qty" 
                       << "Total Cost" << CLR_RESET << "\n";
             std::cout << "  " << std::string(62, '-') << "\n";
-
-            // ── Table Rows ──────────────────────────────────────────────────
-            for (const auto &[compId, qty] : netBOM)
-            {
-                if (qty > 0)
-                { // Only show items currently checked out
+            
+            for (const auto& [compId, qty] : netBOM) {
+                if (qty > 0) {
                     hasItems = true;
-
                     std::string name = "(Component deleted)";
                     double itemTotal = 0.0;
-
-                    // Fetch from inventory to get Name and Unit Price
-                    Component *comp = inv.getComponent(compId);
-                    if (comp)
-                    {
-                        name = comp->getName().substr(0, 26); // Truncate if too long
+                    
+                    Component* comp = inv.getComponent(compId);
+                    if (comp) {
+                        name = comp->getName().substr(0, 26);
                         itemTotal = comp->getUnitPrice() * qty;
                         grandTotal += itemTotal;
                     }
 
-                    std::cout << "  " << std::left
-                              << std::setw(12) << compId
-                              << std::setw(28) << name
-                              << std::setw(8) << qty
+                    std::cout << "  " << std::left 
+                              << std::setw(12) << compId 
+                              << std::setw(28) << name 
+                              << std::setw(8)  << qty 
                               << "€" << std::fixed << std::setprecision(2) << itemTotal << "\n";
                 }
             }
-
-            if (!hasItems)
-            {
+            
+            if (!hasItems) {
                 std::cout << "  (No components are currently checked out)\n";
-            }
-            else
-            {
+            } else {
                 std::cout << "  " << std::string(62, '-') << "\n"
                           << "  " << std::left << std::setw(48) << CLR_BOLD "Grand Total:" CLR_RESET
                           << CLR_BOLD "€" << std::fixed << std::setprecision(2) << grandTotal << CLR_RESET << "\n";
             }
             pause();
         }
-        else if (ch == 3)
-        { // Log
+        else if (ch == 3) { // NEW: Export BOM to CSV
+            hdr("Export BOM to CSV: " + activeProject);
+            std::string path = inputLine("Output CSV path (e.g. project_bom.csv): ");
+            
+            if (!path.empty()) {
+                auto txs = pm.getProject(activeProject).getLog().getAll();
+                std::map<std::string, int> netBOM;
+
+                for (auto& tx : txs) {
+                    if (tx.getType() == TransactionType::CHECKOUT) {
+                        netBOM[tx.getComponentId()] += tx.getQuantity();
+                    } else if (tx.getType() == TransactionType::RETURN) {
+                        netBOM[tx.getComponentId()] -= tx.getQuantity();
+                    }
+                }
+
+                std::ofstream f(path);
+                if (f.is_open()) {
+                    // Write CSV Headers
+                    f << "ID,Name,Quantity,Unit Price,Total Cost\n";
+                    double grandTotal = 0.0;
+                    
+                    for (const auto& [compId, qty] : netBOM) {
+                        if (qty > 0) {
+                            std::string name = "Deleted Component";
+                            double unitPrice = 0.0;
+                            double totalCost = 0.0;
+                            
+                            Component* comp = inv.getComponent(compId);
+                            if (comp) {
+                                name = comp->getName();
+                                // Escape commas in the name so it doesn't break the CSV layout
+                                if (name.find(',') != std::string::npos) {
+                                    name = "\"" + name + "\"";
+                                }
+                                unitPrice = comp->getUnitPrice();
+                                totalCost = unitPrice * qty;
+                                grandTotal += totalCost;
+                            }
+                            
+                            f << compId << "," << name << "," << qty << "," 
+                              << unitPrice << "," << totalCost << "\n";
+                        }
+                    }
+                    f << ",,," << "Grand Total," << grandTotal << "\n";
+                    std::cout << CLR_GREEN "  ✓ Exported current BOM to " << path << "\n" CLR_RESET;
+                } else {
+                    std::cout << CLR_RED "  Failed to open file for writing.\n" CLR_RESET;
+                }
+            }
+            pause();
+        }
+        else if (ch == 4) { // Log
             hdr("Transaction Log: " + activeProject);
             std::cout << "\n";
-            for (auto &tx : pm.getProject(activeProject).getLog().getAll())
+            for (auto& tx : pm.getProject(activeProject).getLog().getAll())
                 std::cout << "  " << tx.toString() << "\n";
             pause();
         }
-        else if (ch == 4)
-        { // Cost
+        else if (ch == 5) { // Cost
             hdr("Project Cost: " + activeProject);
             std::cout << "\n  Total cost for '" << activeProject << "': €"
                       << CLR_BOLD << std::fixed << std::setprecision(4)
                       << pm.getProjectCost(activeProject) << CLR_RESET "\n";
             pause();
         }
-        else if (ch == 5)
-        { // Export
+        else if (ch == 6) { // Export Log
             hdr("Export Transaction Log: " + activeProject);
             std::string path = inputLine("Output CSV path: ");
-            pm.getProject(activeProject).getLog().exportCSV(path);
+            pm.getProject(activeProject).getLog().exportCSV(path); 
             std::cout << CLR_GREEN "  ✓ Exported to " << path << "\n" CLR_RESET;
             pause();
         }
-        else if (ch == 6)
-        { // Delete
+        else if (ch == 7) { // Delete
             hdr("Delete Project");
             std::cout << CLR_YELLOW "\n  WARNING: Deleting the project will destroy its transaction history.\n"
                       << "  It does NOT automatically return checked-out components to inventory.\n\n" CLR_RESET;
-
-            int confirm = arrowMenu("Confirm Deletion", {"No — cancel", "Yes — delete " + activeProject}, 4);
-
-            if (confirm == 1)
-            {
+            
+            int confirm = arrowMenu("Confirm Deletion", {
+                "No — cancel", 
+                "Yes — delete " + activeProject
+            }, 4);
+            
+            if (confirm == 1) {
                 pm.deleteProject(activeProject);
                 std::cout << CLR_GREEN "\n  ✓ Project deleted.\n" CLR_RESET;
-                activeProject = ""; // Clear state to return to selection menu
+                activeProject = ""; 
                 trySave(inv, pm);
                 pause();
             }
         }
-        else if (ch == 7)
-        {                       // Change Active Project
-            activeProject = ""; // Wiping the string triggers the Selection Menu on the next loop
+        else if (ch == 8) { // Change Active Project
+            activeProject = ""; 
         }
     }
 }
