@@ -75,7 +75,7 @@ ARBITRARY|ARB0073|Trimpot 3362P 10k|50|10|0.450000|Passives/Potentiometers|https
 ARBITRARY|ARB0074|Potentiometer 10k Lin|30|5|1.500000|Passives/Potentiometers|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Panel|3|Rotary|res=10k|taper=Linear
 ARBITRARY|ARB0075|Potentiometer 100k Log|30|5|1.500000|Passives/Potentiometers|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Panel|3|Rotary|res=100k|taper=Logarithmic
 ARBITRARY|ARB0076|130 DC Motor 3V|50|10|0.750000|Electromechanical/Motors/DC|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Motor|2|Small DC motor|speed=10000RPM|voltage=3V
-BJT|BJT0001|2N3904|30|50|0.050000|Semiconductors/Transistors/BJT/NPN|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|NPN|100.0000|40.0000|0.2000|TO-92
+BJT|BJT0001|2N3904|20|50|0.050000|Semiconductors/Transistors/BJT/NPN|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|NPN|100.0000|40.0000|0.2000|TO-92
 BJT|BJT0002|BC547|50|50|0.050000|Semiconductors/Transistors/BJT/NPN|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|NPN|200.0000|45.0000|0.1000|TO-92
 BJT|BJT0003|2N2222A|200|50|0.080000|Semiconductors/Transistors/BJT/NPN|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|NPN|100.0000|40.0000|0.6000|TO-92
 BJT|BJT0004|TIP120|50|10|0.450000|Semiconductors/Transistors/BJT/NPN|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|NPN|1000.0000|60.0000|5.0000|TO-220
@@ -118,7 +118,7 @@ CAPACITOR|CAP0010|470uF Electro|50|10|0.150000|Passives/Capacitors/Electrolytic|
 CAPACITOR|CAP0011|1uF Tantalum|50|10|0.250000|Passives/Capacitors/Tantalum|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Case-A|2|0.000001000000|tantalum|16.000000000000|125.000000000000|Case-A
 CAPACITOR|CAP0012|2.2uF Tantalum|50|10|0.280000|Passives/Capacitors/Tantalum|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Case-A|2|0.000002000000|tantalum|16.000000000000|125.000000000000|Case-A
 CAPACITOR|CAP0013|4.7uF Tantalum|50|10|0.300000|Passives/Capacitors/Tantalum|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Case-B|2|0.000004000000|tantalum|16.000000000000|125.000000000000|Case-B
-CAPACITOR|CAP0014|10uF Tantalum|50|10|0.350000|Passives/Capacitors/Tantalum|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Case-B|2|0.000010000000|tantalum|16.000000000000|125.000000000000|Case-B
+CAPACITOR|CAP0014|10uF Tantalum|36|10|0.350000|Passives/Capacitors/Tantalum|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Case-B|2|0.000010000000|tantalum|16.000000000000|125.000000000000|Case-B
 CAPACITOR|CAP0015|22uF Tantalum|30|5|0.450000|Passives/Capacitors/Tantalum|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Case-C|2|0.000022000000|tantalum|16.000000000000|125.000000000000|Case-C
 CAPACITOR|CAP0016|10nF Film|100|20|0.080000|Passives/Capacitors/Film|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000000010000|film|63.000000000000|85.000000000000|Radial
 CAPACITOR|CAP0017|47nF Film|100|20|0.100000|Passives/Capacitors/Film|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000000047000|film|63.000000000000|85.000000000000|Radial
@@ -132,7 +132,7 @@ CAPACITOR|CAP0024|47pF Ceramic|100|20|0.020000|Passives/Capacitors/Ceramic|https
 CAPACITOR|CAP0025|68pF Ceramic|100|20|0.020000|Passives/Capacitors/Ceramic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Disc|2|0.000000000068|ceramic|5.000000000000|50.000000000000|Disc
 CAPACITOR|CAP0026|150pF Ceramic|100|20|0.020000|Passives/Capacitors/Ceramic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Disc|2|0.000000000150|ceramic|5.000000000000|50.000000000000|Disc
 CAPACITOR|CAP0027|220pF Ceramic|100|20|0.020000|Passives/Capacitors/Ceramic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Disc|2|0.000000000220|ceramic|5.000000000000|50.000000000000|Disc
-CAPACITOR|CAP0028|330pF Ceramic|100|20|0.020000|Passives/Capacitors/Ceramic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Disc|2|0.000000000330|ceramic|5.000000000000|50.000000000000|Disc
+CAPACITOR|CAP0028|330pF Ceramic|96|20|0.020000|Passives/Capacitors/Ceramic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Disc|2|0.000000000330|ceramic|5.000000000000|50.000000000000|Disc
 CAPACITOR|CAP0029|470pF Ceramic|100|20|0.020000|Passives/Capacitors/Ceramic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Disc|2|0.000000000470|ceramic|5.000000000000|50.000000000000|Disc
 CAPACITOR|CAP0030|680pF Ceramic|100|20|0.020000|Passives/Capacitors/Ceramic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Disc|2|0.000000000680|ceramic|5.000000000000|50.000000000000|Disc
 CAPACITOR|CAP0031|15nF Film|100|20|0.080000|Passives/Capacitors/Film|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000000015000|film|10.000000000000|63.000000000000|Radial
@@ -323,7 +323,7 @@ IC|IC0038|AT24C02|50|10|0.250000|Semiconductors/ICs/Memory|https://www.youtube.c
 IC|IC0039|AT24C32|40|10|0.350000|Semiconductors/ICs/Memory|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|DIP-8|8|32K I2C EEPROM|1.8000|5.5000|0.0030|DIP-8
 IC|IC0040|M95256-WMN6TP|20|5|0.950000|Semiconductors/ICs/Memory|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOIC-8|8|256K SPI EEPROM|2.5000|5.5000|0.0050|SOIC-8
 IC|IC0041|MAX232CPE|30|5|0.900000|Semiconductors/ICs/Communication|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|DIP-16|16|RS-232 Transceiver|4.5000|5.5000|0.0100|DIP-16
-IC|IC0042|CH340G|50|10|0.550000|Semiconductors/ICs/Communication|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOP-16|16|USB to UART|3.3000|5.0000|0.0300|SOP-16
+IC|IC0042|CH340G|11|10|0.550000|Semiconductors/ICs/Communication|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOP-16|16|USB to UART|3.3000|5.0000|0.0300|SOP-16
 IC|IC0043|CP2102-GM|20|5|1.600000|Semiconductors/ICs/Communication|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|QFN-28|28|USB to UART Bridge|3.0000|3.6000|0.0260|QFN-28
 IC|IC0044|FT232RL|15|5|3.500000|Semiconductors/ICs/Communication|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SSOP-28|28|USB to UART Bridge|3.3000|5.2000|0.0150|SSOP-28
 IC|IC0045|MCP2515-I/P|20|5|1.800000|Semiconductors/ICs/Communication|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|DIP-18|18|CAN Controller|2.7000|5.5000|0.0100|DIP-18
@@ -331,7 +331,7 @@ IC|IC0046|LTC4365|10|2|4.200000|Semiconductors/ICs/Protection|https://www.youtub
 IC|IC0047|BQ2970|30|5|0.650000|Semiconductors/ICs/Protection|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SON-6|6|Li-Ion Protection|1.5000|8.0000|0.0010|SON-6
 IC|IC0048|DW01A|100|20|0.150000|Semiconductors/ICs/Protection|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23-6|6|Battery Protection|1.5000|8.0000|0.0030|SOT-23-6
 IC|IC0049|TP4056|100|20|0.250000|Semiconductors/ICs/Protection|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOP-8|8|Linear Li-Ion Charger|4.0000|8.0000|1.0000|SOP-8
-IC|IC0050|MAX809S|50|10|0.450000|Semiconductors/ICs/Protection|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|Reset Monitor|1.2000|5.5000|0.0010|SOT-23
+IC|IC0050|MAX809S|19|10|0.450000|Semiconductors/ICs/Protection|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|Reset Monitor|1.2000|5.5000|0.0010|SOT-23
 IC|IC0051|SN74HC08N|50|10|0.250000|Semiconductors/ICs/Logic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|DIP-14|14|Quad 2-In AND|2.0000|6.0000|0.0200|DIP-14
 IC|IC0052|SN74HC32N|50|10|0.250000|Semiconductors/ICs/Logic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|DIP-14|14|Quad 2-In OR|2.0000|6.0000|0.0200|DIP-14
 IC|IC0053|SN74HC86N|50|10|0.250000|Semiconductors/ICs/Logic|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|DIP-14|14|Quad 2-In XOR|2.0000|6.0000|0.0200|DIP-14
@@ -348,7 +348,7 @@ IC|IC0063|L7809CV|40|10|0.450000|Semiconductors/ICs/Power|https://www.youtube.co
 IC|IC0064|L7815CV|40|10|0.450000|Semiconductors/ICs/Power|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|15V Regulator|17.0000|35.0000|1.5000|TO-220
 IC|IC0065|L7905CV|30|5|0.500000|Semiconductors/ICs/Power|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|-5V Regulator|-7.0000|-35.0000|1.5000|TO-220
 IC|IC0066|L7912CV|30|5|0.500000|Semiconductors/ICs/Power|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|-12V Regulator|-14.0000|-35.0000|1.5000|TO-220
-IC|IC0067|TL431A|88|20|0.150000|Semiconductors/ICs/Power|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|Adj Shunt Reg|2.5000|36.0000|0.1000|TO-92
+IC|IC0067|TL431A|76|20|0.150000|Semiconductors/ICs/Power|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|Adj Shunt Reg|2.5000|36.0000|0.1000|TO-92
 IC|IC0068|LM35DZ|50|10|0.900000|Semiconductors/ICs/Sensors|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|Temp Sensor|4.0000|30.0000|0.0100|TO-92
 IC|IC0069|DS18B20|40|10|1.200000|Semiconductors/ICs/Sensors|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-92|3|1-Wire Temp Sensor|3.0000|5.5000|0.0010|TO-92
 IC|IC0070|DHT11|30|5|1.500000|Semiconductors/ICs/Sensors|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Module|4|Temp/Humid Sensor|3.3000|5.0000|0.0020|Module
@@ -376,7 +376,7 @@ INDUCTOR|IND0001|1uH SMD|50|10|0.150000|Passives/Inductors/SMD|https://www.youtu
 INDUCTOR|IND0002|2.2uH SMD|50|10|0.180000|Passives/Inductors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|1206|2|0.000002200|1.500000000|0.150000000|1206
 INDUCTOR|IND0003|4.7uH SMD|50|10|0.200000|Passives/Inductors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|1210|2|0.000004700|2.000000000|0.200000000|1210
 INDUCTOR|IND0004|10uH SMD|100|20|0.250000|Passives/Inductors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|1210|2|0.000010000|1.500000000|0.300000000|1210
-INDUCTOR|IND0005|22uH SMD|50|10|0.280000|Passives/Inductors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|1210|2|0.000022000|1.200000000|0.500000000|1210
+INDUCTOR|IND0005|22uH SMD|0|10|0.280000|Passives/Inductors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|1210|2|0.000022000|1.200000000|0.500000000|1210
 INDUCTOR|IND0006|10uH THT|50|10|0.450000|Passives/Inductors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000010000|2.000000000|0.100000000|Radial
 INDUCTOR|IND0007|47uH THT|50|10|0.500000|Passives/Inductors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000047000|1.500000000|0.250000000|Radial
 INDUCTOR|IND0008|100uH THT|50|10|0.650000|Passives/Inductors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000100000|1.000000000|0.500000000|Radial
@@ -395,7 +395,7 @@ INDUCTOR|IND0020|330uH SMD|30|5|0.500000|Passives/Inductors/SMD|https://www.yout
 INDUCTOR|IND0021|15uH THT|50|10|0.450000|Passives/Inductors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000015000|1.800000000|0.120000000|Radial
 INDUCTOR|IND0022|22uH THT|50|10|0.450000|Passives/Inductors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000022000|1.600000000|0.150000000|Radial
 INDUCTOR|IND0023|33uH THT|50|10|0.500000|Passives/Inductors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000033000|1.400000000|0.200000000|Radial
-INDUCTOR|IND0024|68uH THT|50|10|0.550000|Passives/Inductors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000068000|1.200000000|0.300000000|Radial
+INDUCTOR|IND0024|68uH THT|30|10|0.550000|Passives/Inductors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000068000|1.200000000|0.300000000|Radial
 INDUCTOR|IND0025|150uH THT|50|10|0.650000|Passives/Inductors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000150000|0.900000000|0.600000000|Radial
 INDUCTOR|IND0026|220uH THT|50|10|0.700000|Passives/Inductors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000220000|0.700000000|0.800000000|Radial
 INDUCTOR|IND0027|330uH THT|50|10|0.750000|Passives/Inductors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Radial|2|0.000330000|0.600000000|1.000000000|Radial
@@ -441,10 +441,11 @@ MOSFET|MOS0026|BSS84P|100|20|0.060000|Semiconductors/Transistors/MOSFET|https://
 MOSFET|MOS0027|TP0610K|100|20|0.150000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|P-CH|0.120000|10.000000|0.500000|60.000000|0.000000|SOT-23
 MOSFET|MOS0028|NDP6020P|40|10|1.200000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|P-CH|24.000000|0.050000|30.000000|20.000000|0.000000|TO-220
 MOSFET|MOS0029|IRLML5203|100|20|0.180000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23|3|P-CH|3.000000|0.098000|10.000000|30.000000|0.000000|SOT-23
-MOSFET|MOS0030|ZXMP6A17E6|50|10|0.450000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23-6|6|P-CH|3.000000|0.125000|12.000000|60.000000|0.000000|SOT-23-6
-RESISTOR|RES0001|10R SMD 0402|80|20|0.005000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|0402|2|10.000000|1.000000|0.063000|0402
-RESISTOR|RES0002|100R SMD 0603|95|20|0.010000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|0603|2|100.000000|1.000000|0.100000|0603
-RESISTOR|RES0003|1k SMD 0805|500|50|0.015000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|0805|2|1000.000000|1.000000|0.125000|0805
+MOSFET|MOS0030|ZXMP6A17E6|40|10|0.450000|Semiconductors/Transistors/MOSFET|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|SOT-23-6|6|P-CH|3.000000|0.125000|12.000000|60.000000|0.000000|SOT-23-6
+MOSFET|MOS0031|IRLZ540|0|2|2.000000|Semiconductors/Transistors/MOSFET/N-Channel|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|TO-220|3|N-CH|1.000000|0.020000|45.000000|50.000000|49.000000|TO-220
+RESISTOR|RES0001|10R SMD 0402|66|20|0.005000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|0402|2|10.000000|1.000000|0.063000|0402
+RESISTOR|RES0002|100R SMD 0603|5|20|0.010000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|0603|2|100.000000|1.000000|0.100000|0603
+RESISTOR|RES0003|1k SMD 0805|290|50|0.015000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|0805|2|1000.000000|1.000000|0.125000|0805
 RESISTOR|RES0004|10k SMD 1206|310|50|0.020000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|1206|2|10000.000000|1.000000|0.250000|1206
 RESISTOR|RES0005|100k SMD 1210|0|20|0.030000|Passives/Resistors/SMD|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|1210|2|100000.000000|1.000000|0.500000|1210
 RESISTOR|RES0006|10R THT 1/4W|100|20|0.020000|Passives/Resistors/THT|https://www.youtube.com/watch?v=dQw4w9WgXcQ|Unknown|Axial|2|10.000000|1.000000|0.250000|Axial
